@@ -54,35 +54,73 @@ Guidelines:
 If the user asks about a specific LeetCode problem, help them think through the approach step by step."""
 
 
-def _get_gemini_client():
-    """Initialize Gemini generative AI client."""
-    api_key = os.environ.get("GEMINI_API_KEY", "")
-    if not api_key:
-        return None, None
-    try:
-        import google.generativeai as genai
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel(
-            model_name="gemini-1.5-flash",
-            system_instruction=DSA_SYSTEM_PROMPT,
-            generation_config={
-                "temperature": 0.7,
-                "max_output_tokens": 1024,
-            }
-        )
-        return genai, model
-    except Exception as e:
-        logger.warning(f"Could not initialize Gemini: {e}")
-        return None, None
+import httpx
 
+async def _call_gemini_rest(api_key: str, user_message: str, history_msgs: list) -> Optional[str]:
+    try:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+        contents = []
+        for msg in history_msgs:
+            role = "user" if msg.role == "user" else "model"
+            contents.append({"role": role, "parts": [{"text": msg.content}]})
+        contents.append({"role": "user", "parts": [{"text": user_message}]})
+
+        payload = {
+            "contents": contents,
+            "systemInstruction": {"parts": [{"text": DSA_SYSTEM_PROMPT}]},
+            "generationConfig": {
+                "temperature": 0.7,
+                "maxOutputTokens": 1024,
+            }
+        }
+        async with httpx.AsyncClient(timeout=15.0) as client:
+            resp = await client.post(url, json=payload)
+            if resp.status_code == 200:
+                data = resp.json()
+                return data["candidates"][0]["content"]["parts"][0]["text"]
+            else:
+                logger.warning(f"Gemini REST error {resp.status_code}: {resp.text}")
+    except Exception as e:
+        logger.warning(f"Gemini REST call failed: {e}")
+    return None
+
+async def _call_openai_compatible(api_url: str, api_key: str, model_name: str, user_message: str, history_msgs: list) -> Optional[str]:
+    try:
+        messages = [{"role": "system", "content": DSA_SYSTEM_PROMPT}]
+        for msg in history_msgs:
+            messages.append({"role": "user" if msg.role == "user" else "assistant", "content": msg.content})
+        messages.append({"role": "user", "content": user_message})
+
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "model": model_name,
+            "messages": messages,
+            "temperature": 0.7,
+            "max_tokens": 1024
+        }
+        async with httpx.AsyncClient(timeout=15.0) as client:
+            resp = await client.post(api_url, headers=headers, json=payload)
+            if resp.status_code == 200:
+                data = resp.json()
+                return data["choices"][0]["message"]["content"]
+            else:
+                logger.warning(f"LLM API error {resp.status_code}: {resp.text}")
+    except Exception as e:
+        logger.warning(f"LLM API call failed: {e}")
+    return None
 
 @router.post("/ai-chat", response_model=ChatResponse)
 async def ai_chat(req: ChatRequest):
     """
-    Chat with the AI DSA tutor using Google Gemini (free tier).
-    Supports multi-turn conversation history.
+    Chat with the AI DSA tutor using free LLM providers (Gemini, Groq, OpenRouter).
+    Gracefully falls back to structured DSA tutor engine if keys are absent.
     """
-    genai, model = _get_gemini_client()
+    gemini_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("LLM_API_KEY")
+    groq_key = os.environ.get("GROQ_API_KEY")
+    openrouter_key = os.environ.get("OPENROUTER_API_KEY")
 
     # Build user message with optional problem context
     user_message = req.message
@@ -95,31 +133,40 @@ async def ai_chat(req: ChatRequest):
         )
         user_message = context_prefix + user_message
 
-    # No API key fallback — rule-based response
-    if model is None:
-        reply = _rule_based_response(req.message, req.problem_context)
-        return ChatResponse(reply=reply, model_used="rule-based-fallback")
+    # 1. Try Gemini (Free tier)
+    if gemini_key:
+        reply = await _call_gemini_rest(gemini_key, user_message, req.history or [])
+        if reply:
+            return ChatResponse(reply=reply, model_used="gemini-1.5-flash")
 
-    try:
-        # Convert history to Gemini format
-        history = []
-        for msg in (req.history or []):
-            history.append({
-                "role": msg.role,
-                "parts": [msg.content]
-            })
+    # 2. Try Groq (Free tier)
+    if groq_key:
+        reply = await _call_openai_compatible(
+            "https://api.groq.com/openai/v1/chat/completions",
+            groq_key,
+            "llama-3.3-70b-versatile",
+            user_message,
+            req.history or []
+        )
+        if reply:
+            return ChatResponse(reply=reply, model_used="groq-llama-3.3")
 
-        chat = model.start_chat(history=history)
-        response = chat.send_message(user_message)
-        reply = response.text
+    # 3. Try OpenRouter (Free tier models)
+    if openrouter_key:
+        reply = await _call_openai_compatible(
+            "https://openrouter.ai/api/v1/chat/completions",
+            openrouter_key,
+            "meta-llama/llama-3.2-3b-instruct:free",
+            user_message,
+            req.history or []
+        )
+        if reply:
+            return ChatResponse(reply=reply, model_used="openrouter-llama-3.2")
 
-        return ChatResponse(reply=reply, model_used="gemini-1.5-flash")
+    # Fallback to intelligent rule-based tutor
+    reply = _rule_based_response(req.message, req.problem_context)
+    return ChatResponse(reply=reply, model_used="algo-tutor-engine")
 
-    except Exception as e:
-        logger.error(f"Gemini API error: {e}")
-        # Graceful fallback
-        reply = _rule_based_response(req.message, req.problem_context)
-        return ChatResponse(reply=reply, model_used="rule-based-fallback")
 
 
 def _rule_based_response(message: str, context: Optional[dict] = None) -> str:
