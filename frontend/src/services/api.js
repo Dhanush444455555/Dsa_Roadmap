@@ -1,6 +1,9 @@
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000/api';
+// In production (Vercel), /api routes to serverless functions on the same domain.
+// In local dev, Vite proxy forwards /api -> localhost:8000.
+// Override with VITE_API_BASE_URL env var to point to a separate backend deployment.
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
