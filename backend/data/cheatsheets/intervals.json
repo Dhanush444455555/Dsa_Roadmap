@@ -1,0 +1,70 @@
+{
+  "topic": "Intervals",
+  "when_to_use": [
+    "Keywords: 'merge intervals', 'insert interval', 'meeting rooms', 'non-overlapping', 'minimum arrows'.",
+    "Overlapping time ranges `[start, end]`.",
+    "Counting peak concurrent overlaps or eliminating overlapping intervals."
+  ],
+  "core_idea": "Sort intervals by start (for merging/inserting) or by end (for activity selection/non-overlap), then perform linear sweeps or min-heap active tracking.",
+  "code_templates": {
+    "python": "# 1. Merge Intervals Template\ndef merge_intervals(intervals: list[list[int]]) -> list[list[int]]:\n    intervals.sort(key=lambda x: x[0])\n    merged = [intervals[0]]\n    for start, end in intervals[1:]:\n        prev_start, prev_end = merged[-1]\n        if start <= prev_end:\n            # Overlap: extend previous end\n            merged[-1][1] = max(prev_end, end)\n        else:\n            merged.append([start, end])\n    return merged\n\n# 2. Non-overlapping Intervals (Erase Min Overlaps)\ndef erase_overlap_intervals(intervals: list[list[int]]) -> int:\n    # Sort by END time\n    intervals.sort(key=lambda x: x[1])\n    count_kept = 0\n    last_end = float(\"-inf\")\n    for start, end in intervals:\n        if start >= last_end:\n            count_kept += 1\n            last_end = end\n    return len(intervals) - count_kept",
+    "cpp": "#include <vector>\n#include <algorithm>\n\nstd::vector<std::vector<int>> merge(std::vector<std::vector<int>>& intervals) {\n    std::sort(intervals.begin(), intervals.end(), [](const auto& a, const auto& b) {\n        return a[0] < b[0];\n    });\n    std::vector<std::vector<int>> merged;\n    merged.push_back(intervals[0]);\n    for (size_t i = 1; i < intervals.size(); ++i) {\n        if (intervals[i][0] <= merged.back()[1]) {\n            merged.back()[1] = std::max(merged.back()[1], intervals[i][1]);\n        } else {\n            merged.push_back(intervals[i]);\n        }\n    }\n    return merged;\n}",
+    "java": "import java.util.Arrays;\nimport java.util.ArrayList;\nimport java.util.List;\n\npublic class IntervalTemplates {\n    public int[][] merge(int[][] intervals) {\n        Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));\n        List<int[]> merged = new ArrayList<>();\n        merged.add(intervals[0]);\n\n        for (int i = 1; i < intervals.length; i++) {\n            int[] last = merged.get(merged.size() - 1);\n            if (intervals[i][0] <= last[1]) {\n                last[1] = Math.max(last[1], intervals[i][1]);\n            } else {\n                merged.add(intervals[i]);\n            }\n        }\n        return merged.toArray(new int[merged.size()][]);\n    }\n}"
+  },
+  "formulas_and_identities": [
+    "Overlap Condition between A and B: max(A.start, B.start) <= min(A.end, B.end)",
+    "Intersection Interval: [max(A.start, B.start), min(A.end, B.end)] if start <= end",
+    "Sweep-Line Peak Rooms: create events (+1 at start, -1 at end); running max of prefix sum gives peak rooms"
+  ],
+  "complexity_table": [
+    {
+      "operation": "Sort & Merge Intervals",
+      "time": "O(n log n)",
+      "space": "O(n)"
+    },
+    {
+      "operation": "Insert Interval into Disjoint List",
+      "time": "O(n)",
+      "space": "O(n)"
+    },
+    {
+      "operation": "Meeting Rooms II (Min-Heap / Sweep)",
+      "time": "O(n log n)",
+      "space": "O(n)"
+    }
+  ],
+  "common_mistakes": [
+    "Sorting by end when merging (must sort by start for standard merge).",
+    "Forgetting `max(prev_end, end)` when merging (e.g. interval [1, 5] and [2, 4] -> end stays 5).",
+    "Handling edge contacts: verify if `start <= end` or `start < end` defines an overlap in the problem statement."
+  ],
+  "pattern_to_problem_map": [
+    {
+      "number": 56,
+      "title": "Merge Intervals"
+    },
+    {
+      "number": 57,
+      "title": "Insert Interval"
+    },
+    {
+      "number": 252,
+      "title": "Meeting Rooms"
+    },
+    {
+      "number": 253,
+      "title": "Meeting Rooms II"
+    },
+    {
+      "number": 435,
+      "title": "Non-overlapping Intervals"
+    }
+  ],
+  "quick_revision": [
+    "Merge Intervals: sort by START time; merge if `curr.start <= prev.end`.",
+    "Non-overlapping / Activity Selection: sort by END time; greedily keep earliest finishing interval.",
+    "Meeting Rooms II: sort start and end points separately or use min-heap of active end times.",
+    "Two intervals overlap if and only if `max(a.start, b.start) <= min(a.end, b.end)`.",
+    "Insert Interval: process before-intervals, merge overlapping into newInterval, process after-intervals."
+  ]
+}

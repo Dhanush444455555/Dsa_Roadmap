@@ -1,0 +1,70 @@
+{
+  "topic": "Hashing",
+  "when_to_use": [
+    "Keywords: 'frequency', 'anagram', 'duplicates', 'lookup in O(1)', 'group by signature'.",
+    "When you need to pair elements, detect cycles, or count occurrences.",
+    "Associating keys with metadata or finding sequence boundaries."
+  ],
+  "core_idea": "Transform elements into canonical hash keys (e.g. sorted strings, count tuples) for instant O(1) lookup and frequency aggregation.",
+  "code_templates": {
+    "python": "# 1. Frequency Table & Group Anagrams\nfrom collections import defaultdict\n\ndef group_anagrams(strs: list[str]) -> list[list[str]]:\n    groups = defaultdict(list)\n    for s in strs:\n        # Canonical signature: count of each character or sorted string\n        key = tuple(sorted(s))\n        groups[key].append(s)\n    return list(groups.values())\n\n# 2. Longest Consecutive Sequence in O(n)\ndef longest_consecutive(nums: list[int]) -> int:\n    num_set = set(nums)\n    longest = 0\n    for x in num_set:\n        # Only start counting if x is the beginning of a streak\n        if x - 1 not in num_set:\n            current_num = x\n            current_streak = 1\n            while current_num + 1 in num_set:\n                current_num += 1\n                current_streak += 1\n            longest = max(longest, current_streak)\n    return longest",
+    "cpp": "#include <vector>\n#include <string>\n#include <unordered_map>\n#include <unordered_set>\n#include <algorithm>\n\nstd::vector<std::vector<std::string>> groupAnagrams(std::vector<std::string>& strs) {\n    std::unordered_map<std::string, std::vector<std::string>> map;\n    for (const auto& s : strs) {\n        std::string key = s;\n        std::sort(key.begin(), key.end());\n        map[key].push_back(s);\n    }\n    std::vector<std::vector<std::string>> result;\n    for (auto& pair : map) {\n        result.push_back(std::move(pair.second));\n    }\n    return result;\n}",
+    "java": "import java.util.*;\n\npublic class HashTemplates {\n    public List<List<String>> groupAnagrams(String[] strs) {\n        Map<String, List<String>> map = new HashMap<>();\n        for (String s : strs) {\n            char[] chars = s.toCharArray();\n            Arrays.sort(chars);\n            String key = new String(chars);\n            map.computeIfAbsent(key, k -> new ArrayList<>()).add(s);\n        }\n        return new ArrayList<>(map.values());\n    }\n}"
+  },
+  "formulas_and_identities": [
+    "Complement Lookup: complement = target - nums[i]",
+    "Prefix Sum Remainder: (sum[j] - sum[i]) % k == 0 <=> sum[j] % k == sum[i] % k",
+    "Total Subarray Combinations from Frequencies: count = freq * (freq - 1) / 2"
+  ],
+  "complexity_table": [
+    {
+      "operation": "Average Lookup / Insert",
+      "time": "O(1)",
+      "space": "O(1)"
+    },
+    {
+      "operation": "Worst Case Hash Collision",
+      "time": "O(n)",
+      "space": "O(1)"
+    },
+    {
+      "operation": "Group Anagrams by Sorting",
+      "time": "O(n * k log k)",
+      "space": "O(n * k)"
+    }
+  ],
+  "common_mistakes": [
+    "Using mutable types (like lists) as keys in Python dictionaries.",
+    "Not handling negative remainders when doing modulo hash tracking `(sum % k + k) % k`.",
+    "Assuming hash iteration order is deterministic across environments."
+  ],
+  "pattern_to_problem_map": [
+    {
+      "number": 49,
+      "title": "Group Anagrams"
+    },
+    {
+      "number": 128,
+      "title": "Longest Consecutive Sequence"
+    },
+    {
+      "number": 242,
+      "title": "Valid Anagram"
+    },
+    {
+      "number": 560,
+      "title": "Subarray Sum Equals K"
+    },
+    {
+      "number": 974,
+      "title": "Subarray Sums Divisible by K"
+    }
+  ],
+  "quick_revision": [
+    "Use HashSet to verify membership in O(1) time.",
+    "Subarray sum equals k uses prefix sum map tracking `prefix_sum - k`.",
+    "Longest Consecutive Sequence: only start streak from numbers where `num - 1` is not in set.",
+    "Bijective mappings require two maps (forward and backward) to prevent multi-to-one collisions.",
+    "Always normalize modulo remainders in negative arithmetic."
+  ]
+}

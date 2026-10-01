@@ -1,0 +1,72 @@
+{
+  "topic": "Trees & BST",
+  "when_to_use": [
+    "Keywords: 'LCA', 'diameter', 'level order', 'invert tree', 'serialize', 'valid BST', 'path sum'.",
+    "Hierarchical recursive structures with Left and Right subtrees.",
+    "BST ordering property: left < root < right ensures inorder traversal is strictly ascending."
+  ],
+  "core_idea": "Decompose into subproblems solved at left and right subtrees (postorder for bottom-up aggregations like diameter/height, preorder for top-down constraints).",
+  "code_templates": {
+    "python": "class TreeNode:\n    def __init__(self, val=0, left=None, right=None):\n        self.val = val\n        self.left = left\n        self.right = right\n\n# 1. Diameter / Max Path Sum (Postorder Bottom-Up)\ndef diameter_of_binary_tree(root: TreeNode) -> int:\n    diameter = 0\n    def max_depth(node: TreeNode) -> int:\n        nonlocal diameter\n        if not node:\n            return 0\n        left_h = max_depth(node.left)\n        right_h = max_depth(node.right)\n        diameter = max(diameter, left_h + right_h)\n        return 1 + max(left_h, right_h)\n\n    max_depth(root)\n    return diameter\n\n# 2. Lowest Common Ancestor in Binary Tree\ndef lowest_common_ancestor(root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:\n    if not root or root == p or root == q:\n        return root\n    left = lowest_common_ancestor(root.left, p, q)\n    right = lowest_common_ancestor(root.right, p, q)\n    if left and right:\n        return root # Both found in opposite subtrees\n    return left if left else right",
+    "cpp": "struct TreeNode {\n    int val;\n    TreeNode *left;\n    TreeNode *right;\n    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}\n};\n\nTreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {\n    if (!root || root == p || root == q) return root;\n    TreeNode* left = lowestCommonAncestor(root->left, p, q);\n    TreeNode* right = lowestCommonAncestor(root->right, p, q);\n    if (left && right) return root;\n    return left ? left : right;\n}",
+    "java": "public class TreeTemplates {\n    public static class TreeNode {\n        int val;\n        TreeNode left, right;\n        TreeNode(int x) { val = x; }\n    }\n\n    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {\n        if (root == null || root == p || root == q) return root;\n        TreeNode left = lowestCommonAncestor(root.left, p, q);\n        TreeNode right = lowestCommonAncestor(root.right, p, q);\n        if (left != null && right != null) return root;\n        return left != null ? left : right;\n    }\n}"
+  },
+  "formulas_and_identities": [
+    "Tree Height: height = 1 + max(height(left), height(right))",
+    "Tree Diameter: diameter = max(left_height + right_height) across all nodes",
+    "BST Inorder Property: Inorder(BST) produces monotonically increasing sorted array",
+    "Nodes in Complete Binary Tree of height h: 2^(h+1) - 1",
+    "BST LCA Split: if p.val < root.val and q.val < root.val -> left; if both > -> right; else root is LCA"
+  ],
+  "complexity_table": [
+    {
+      "operation": "Tree DFS / Postorder",
+      "time": "O(N)",
+      "space": "O(H) recursion stack"
+    },
+    {
+      "operation": "Level Order BFS (Queue)",
+      "time": "O(N)",
+      "space": "O(W) max width"
+    },
+    {
+      "operation": "BST Search / Insert",
+      "time": "O(log N) balanced, O(N) skewed",
+      "space": "O(H)"
+    }
+  ],
+  "common_mistakes": [
+    "Valid BST: checking only immediate child (`node.left.val < node.val`) instead of bounding ranges (`min_val < node.val < max_val`).",
+    "Not capturing the return value when returning bottom-up subtree heights.",
+    "Assuming full binary tree instead of unbalanced tree."
+  ],
+  "pattern_to_problem_map": [
+    {
+      "number": 98,
+      "title": "Validate Binary Search Tree"
+    },
+    {
+      "number": 102,
+      "title": "Binary Tree Level Order Traversal"
+    },
+    {
+      "number": 124,
+      "title": "Binary Tree Maximum Path Sum"
+    },
+    {
+      "number": 236,
+      "title": "Lowest Common Ancestor of a Binary Tree"
+    },
+    {
+      "number": 543,
+      "title": "Diameter of Binary Tree"
+    }
+  ],
+  "quick_revision": [
+    "BST Inorder traversal ALWAYS yields sorted ascending order.",
+    "LCA: if left subtree returns node and right returns node, current root IS the LCA.",
+    "Tree Diameter / Max Path Sum: compute global max in postorder while returning 1-branch depth.",
+    "Valid BST check must propagate bounds `(min_val, max_val)` across all children.",
+    "Level order traversal uses Queue; process `len(q)` elements per level loop."
+  ]
+}

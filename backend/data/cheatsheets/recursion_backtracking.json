@@ -1,0 +1,71 @@
+{
+  "topic": "Recursion & Backtracking",
+  "when_to_use": [
+    "Keywords: 'find all combinations / permutations / subsets', 'sudoku', 'n-queens', 'word search', 'partition palindrome'.",
+    "Exploration of combinatorial state trees where choices must be tried and reverted.",
+    "Constraint satisfaction problems with pruning conditions."
+  ],
+  "core_idea": "Systematically explore all valid decision paths via recursive DFS, appending current choice to path, recursing deeper, and popping choice upon return (backtrack).",
+  "code_templates": {
+    "python": "# 1. Combinations / Subsets Template (Handling Duplicates)\ndef subsets_with_dup(nums: list[int]) -> list[list[int]]:\n    nums.sort() # Sort first to group duplicates together\n    result = []\n\n    def backtrack(start_idx: int, path: list[int]):\n        result.append(list(path))\n        for i in range(start_idx, len(nums)):\n            # Skip sibling duplicate branch\n            if i > start_idx and nums[i] == nums[i - 1]:\n                continue\n            path.append(nums[i])\n            backtrack(i + 1, path)\n            path.pop() # Backtrack step\n\n    backtrack(0, [])\n    return result\n\n# 2. Permutations Template\ndef permute(nums: list[int]) -> list[list[int]]:\n    result = []\n    def backtrack(path: list[int], used: list[bool]):\n        if len(path) == len(nums):\n            result.append(list(path))\n            return\n        for i in range(len(nums)):\n            if used[i]:\n                continue\n            used[i] = True\n            path.append(nums[i])\n            backtrack(path, used)\n            path.pop()\n            used[i] = False\n    backtrack([], [False] * len(nums))\n    return result",
+    "cpp": "#include <vector>\n#include <algorithm>\n\nvoid backtrack(int start, std::vector<int>& nums, std::vector<int>& path, std::vector<std::vector<int>>& res) {\n    res.push_back(path);\n    for (int i = start; i < (int)nums.size(); ++i) {\n        if (i > start && nums[i] == nums[i - 1]) continue;\n        path.push_back(nums[i]);\n        backtrack(i + 1, nums, path, res);\n        path.pop_back();\n    }\n}\n\nstd::vector<std::vector<int>> subsetsWithDup(std::vector<int>& nums) {\n    std::sort(nums.begin(), nums.end());\n    std::vector<std::vector<int>> res;\n    std::vector<int> path;\n    backtrack(0, nums, path, res);\n    return res;\n}",
+    "java": "import java.util.*;\n\npublic class BacktrackTemplates {\n    public List<List<Integer>> subsetsWithDup(int[] nums) {\n        Arrays.sort(nums);\n        List<List<Integer>> res = new ArrayList<>();\n        backtrack(0, nums, new ArrayList<>(), res);\n        return res;\n    }\n\n    private void backtrack(int start, int[] nums, List<Integer> path, List<List<Integer>> res) {\n        res.add(new ArrayList<>(path));\n        for (int i = start; i < nums.length; i++) {\n            if (i > start && nums[i] == nums[i - 1]) continue;\n            path.add(nums[i]);\n            backtrack(i + 1, nums, path, res);\n            path.remove(path.size() - 1);\n        }\n    }\n}"
+  },
+  "formulas_and_identities": [
+    "Total Subsets of set size N: 2^N",
+    "Total Permutations of N distinct elements: N!",
+    "Duplicate Skip Condition: `if i > start and nums[i] == nums[i - 1]: continue`",
+    "N-Queens Diagonal Invariants: main_diag = (r - c), anti_diag = (r + c)"
+  ],
+  "complexity_table": [
+    {
+      "operation": "Subsets Generation",
+      "time": "O(n * 2^n)",
+      "space": "O(n)"
+    },
+    {
+      "operation": "Permutations Generation",
+      "time": "O(n * n!)",
+      "space": "O(n)"
+    },
+    {
+      "operation": "N-Queens Solver",
+      "time": "O(N!)",
+      "space": "O(N)"
+    }
+  ],
+  "common_mistakes": [
+    "Appending reference to mutable `path` instead of a deep copy `list(path)`.",
+    "Forgetting the `path.pop()` backtrack step on recursive unwinding.",
+    "Not sorting before skipping duplicate elements."
+  ],
+  "pattern_to_problem_map": [
+    {
+      "number": 39,
+      "title": "Combination Sum"
+    },
+    {
+      "number": 46,
+      "title": "Permutations"
+    },
+    {
+      "number": 51,
+      "title": "N-Queens"
+    },
+    {
+      "number": 78,
+      "title": "Subsets"
+    },
+    {
+      "number": 79,
+      "title": "Word Search"
+    }
+  ],
+  "quick_revision": [
+    "Always append a copy of current path: `res.append(list(path))`.",
+    "Duplicates in subsets/combinations: sort first, then `if i > start and nums[i] == nums[i-1]: continue`.",
+    "Unbounded choice (e.g. Combination Sum 1): pass `i` instead of `i + 1` in recursive call.",
+    "Grid DFS: mark visited cell in-place `grid[r][c] = '#'` and restore on backtrack.",
+    "N-Queens: diagonals tracked via `r + c` and `r - c` sets."
+  ]
+}

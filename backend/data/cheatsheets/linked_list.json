@@ -1,0 +1,70 @@
+{
+  "topic": "Linked List",
+  "when_to_use": [
+    "Keywords: 'reverse sublist', 'detect cycle', 'merge k sorted lists', 'reorder list', 'middle node'.",
+    "Sequential node pointer rearrangements with O(1) auxiliary space.",
+    "Fast and Slow pointer techniques (tortoise and hare)."
+  ],
+  "core_idea": "Employ dummy sentinel heads to simplify edge cases and manage pointer rewiring via 3-pointer iterations (`prev`, `curr`, `next`) or fast/slow splits.",
+  "code_templates": {
+    "python": "class ListNode:\n    def __init__(self, val=0, next=None):\n        self.val = val\n        self.next = next\n\n# 1. Reverse Linked List In-Place\ndef reverse_list(head: ListNode) -> ListNode:\n    prev = None\n    curr = head\n    while curr:\n        nxt = curr.next\n        curr.next = prev\n        prev = curr\n        curr = nxt\n    return prev\n\n# 2. Fast & Slow Pointer (Find Middle Node)\ndef find_middle(head: ListNode) -> ListNode:\n    slow = fast = head\n    while fast and fast.next:\n        slow = slow.next\n        fast = fast.next.next\n    return slow",
+    "cpp": "struct ListNode {\n    int val;\n    ListNode *next;\n    ListNode(int x) : val(x), next(nullptr) {}\n};\n\nListNode* reverseList(ListNode* head) {\n    ListNode* prev = nullptr;\n    ListNode* curr = head;\n    while (curr) {\n        ListNode* nxt = curr->next;\n        curr->next = prev;\n        prev = curr;\n        curr = nxt;\n    }\n    return prev;\n}",
+    "java": "public class LinkedListTemplates {\n    public static class ListNode {\n        int val;\n        ListNode next;\n        ListNode(int x) { val = x; }\n    }\n\n    public ListNode reverseList(ListNode head) {\n        ListNode prev = null, curr = head;\n        while (curr != null) {\n            ListNode next = curr.next;\n            curr.next = prev;\n            prev = curr;\n            curr = next;\n        }\n        return prev;\n    }\n}"
+  },
+  "formulas_and_identities": [
+    "Dummy Head Invariant: dummy.next = head ensures head modifications (deletion/insertion) require no special if-branches",
+    "Cycle Length: after fast meets slow, keep slow fixed and move fast by 1 until meeting again",
+    "Palindrome List: Find Mid -> Reverse 2nd Half -> Compare 1st & 2nd Halves"
+  ],
+  "complexity_table": [
+    {
+      "operation": "Reverse Linked List",
+      "time": "O(n)",
+      "space": "O(1)"
+    },
+    {
+      "operation": "Detect Cycle (Floyd)",
+      "time": "O(n)",
+      "space": "O(1)"
+    },
+    {
+      "operation": "Merge K Sorted Lists (Heap)",
+      "time": "O(N log k)",
+      "space": "O(k)"
+    }
+  ],
+  "common_mistakes": [
+    "Losing reference to `curr.next` before overwriting pointer during reversal.",
+    "Null pointer dereference on `fast.next.next` when `fast.next` is null.",
+    "Creating circular references by failing to set the tail's next pointer to null."
+  ],
+  "pattern_to_problem_map": [
+    {
+      "number": 21,
+      "title": "Merge Two Sorted Lists"
+    },
+    {
+      "number": 23,
+      "title": "Merge k Sorted Lists"
+    },
+    {
+      "number": 141,
+      "title": "Linked List Cycle"
+    },
+    {
+      "number": 143,
+      "title": "Reorder List"
+    },
+    {
+      "number": 206,
+      "title": "Reverse Linked List"
+    }
+  ],
+  "quick_revision": [
+    "Always create a `dummy` node (`dummy.next = head`) to avoid head deletion edge cases.",
+    "Reverse linked list: `nxt = curr.next; curr.next = prev; prev = curr; curr = nxt`.",
+    "Find middle: `while fast and fast.next: slow = slow.next; fast = fast.next.next`.",
+    "Reorder List: Find middle -> Reverse second half -> Interleave two halves.",
+    "Merge K Sorted Lists uses a Min-Heap of size K containing the current head of each list."
+  ]
+}

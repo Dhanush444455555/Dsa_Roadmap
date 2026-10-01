@@ -1,0 +1,70 @@
+{
+  "topic": "Tries",
+  "when_to_use": [
+    "Keywords: 'prefix search', 'autocomplete', 'implement dictionary', 'wildcard string match', 'maximum XOR of two numbers'.",
+    "Storing a set of strings with common prefixes.",
+    "Bitwise prefix matching (Binary Trie) for maximum XOR queries."
+  ],
+  "core_idea": "A tree where each node represents a character or bit, and paths from root to marked endpoints spell stored words in O(L) time.",
+  "code_templates": {
+    "python": "# 1. Standard Trie (Prefix Tree)\nclass TrieNode:\n    def __init__(self):\n        self.children = {}\n        self.is_end = False\n\nclass Trie:\n    def __init__(self):\n        self.root = TrieNode()\n\n    def insert(self, word: str) -> None:\n        curr = self.root\n        for c in word:\n            if c not in curr.children:\n                curr.children[c] = TrieNode()\n            curr = curr.children[c]\n        curr.is_end = True\n\n    def search(self, word: str) -> bool:\n        curr = self.root\n        for c in word:\n            if c not in curr.children:\n                return False\n            curr = curr.children[c]\n        return curr.is_end\n\n    def startsWith(self, prefix: str) -> bool:\n        curr = self.root\n        for c in prefix:\n            if c not in curr.children:\n                return False\n            curr = curr.children[c]\n        return True",
+    "cpp": "#include <string>\n#include <vector>\n\nclass Trie {\n    struct TrieNode {\n        TrieNode* children[26] = {nullptr};\n        bool isEnd = false;\n    };\n    TrieNode* root;\npublic:\n    Trie() : root(new TrieNode()) {}\n\n    void insert(const std::string& word) {\n        TrieNode* curr = root;\n        for (char c : word) {\n            int idx = c - 'a';\n            if (!curr->children[idx]) curr->children[idx] = new TrieNode();\n            curr = curr->children[idx];\n        }\n        curr->isEnd = true;\n    }\n\n    bool search(const std::string& word) {\n        TrieNode* curr = root;\n        for (char c : word) {\n            int idx = c - 'a';\n            if (!curr->children[idx]) return false;\n            curr = curr->children[idx];\n        }\n        return curr->isEnd;\n    }\n};",
+    "java": "public class Trie {\n    static class TrieNode {\n        TrieNode[] children = new TrieNode[26];\n        boolean isEnd = false;\n    }\n    private TrieNode root = new TrieNode();\n\n    public void insert(String word) {\n        TrieNode curr = root;\n        for (char c : word.toCharArray()) {\n            int idx = c - 'a';\n            if (curr.children[idx] == null) curr.children[idx] = new TrieNode();\n            curr = curr.children[idx];\n        }\n        curr.isEnd = true;\n    }\n\n    public boolean search(String word) {\n        TrieNode curr = root;\n        for (char c : word.toCharArray()) {\n            int idx = c - 'a';\n            if (curr.children[idx] == null) return false;\n            curr = curr.children[idx];\n        }\n        return curr.isEnd;\n    }\n}"
+  },
+  "formulas_and_identities": [
+    "Time Complexity per Operation: O(L) where L is the length of the query string",
+    "Max XOR Bitwise Trie: for each bit (from 31 down to 0), greedily traverse the opposite bit (1 - bit) if it exists",
+    "Trie Node Array vs Map: fixed 26-size array gives faster O(1) access; hash map saves space for sparse alphabets"
+  ],
+  "complexity_table": [
+    {
+      "operation": "Insert Word (len L)",
+      "time": "O(L)",
+      "space": "O(L * alphabet_size)"
+    },
+    {
+      "operation": "Search Word (len L)",
+      "time": "O(L)",
+      "space": "O(1)"
+    },
+    {
+      "operation": "Prefix Match (len P)",
+      "time": "O(P)",
+      "space": "O(1)"
+    }
+  ],
+  "common_mistakes": [
+    "Forgetting to set `is_end = True` when inserting words.",
+    "Confusing `startsWith` (checks prefix existence) with `search` (checks exact word with `is_end`).",
+    "Memory explosion when storing large alphabets (use Map instead of fixed array for unicode)."
+  ],
+  "pattern_to_problem_map": [
+    {
+      "number": 208,
+      "title": "Implement Trie (Prefix Tree)"
+    },
+    {
+      "number": 211,
+      "title": "Design Add and Search Words Data Structure"
+    },
+    {
+      "number": 212,
+      "title": "Word Search II"
+    },
+    {
+      "number": 421,
+      "title": "Maximum XOR of Two Numbers in an Array"
+    },
+    {
+      "number": 648,
+      "title": "Replace Words"
+    }
+  ],
+  "quick_revision": [
+    "Insert, Search, and StartsWith all run in O(L) time where L is word length.",
+    "Word Search II: build Trie on dictionary words to prune grid DFS early.",
+    "Wildcard '.' search in Trie: use recursion/backtracking over all non-null children.",
+    "Binary Trie (depth 32): solve Max XOR by greedily choosing opposite bits.",
+    "`is_end` flag differentiates prefixes from complete words."
+  ]
+}

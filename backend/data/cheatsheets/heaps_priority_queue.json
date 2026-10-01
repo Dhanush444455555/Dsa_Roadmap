@@ -1,0 +1,76 @@
+{
+  "topic": "Heaps & Priority Queue",
+  "when_to_use": [
+    "Keywords: 'top K elements', 'kth largest/smallest', 'median of stream', 'k-way merge', 'task scheduler'.",
+    "Dynamically maintaining minimum or maximum element under continuous insertions/deletions.",
+    "Greedy scheduling with task cooldowns."
+  ],
+  "core_idea": "Maintain a partial ordering in a complete binary tree where parent is always smaller (Min-Heap) or larger (Max-Heap) than children, enabling O(1) peek and O(log k) updates.",
+  "code_templates": {
+    "python": "# 1. Top K Frequent Elements with Min-Heap of size K\nimport heapq\nfrom collections import Counter\n\ndef top_k_frequent(nums: list[int], k: int) -> list[int]:\n    count = Counter(nums)\n    # Min-heap maintains top K largest frequencies\n    heap = []\n    for num, freq in count.items():\n        heapq.heappush(heap, (freq, num))\n        if len(heap) > k:\n            heapq.heappop(heap)\n    return [num for freq, num in heap]\n\n# 2. Dual Heap for Streaming Median\nclass MedianFinder:\n    def __init__(self):\n        self.small = [] # Max-heap (invert signs in Python)\n        self.large = [] # Min-heap\n\n    def addNum(self, num: int) -> None:\n        heapq.heappush(self.small, -num)\n        # Invariant: every element in small <= every element in large\n        if self.small and self.large and (-self.small[0] > self.large[0]):\n            val = -heapq.heappop(self.small)\n            heapq.heappush(self.large, val)\n        # Balance sizes (small can have at most 1 more element than large)\n        if len(self.small) > len(self.large) + 1:\n            val = -heapq.heappop(self.small)\n            heapq.heappush(self.large, val)\n        if len(self.large) > len(self.small):\n            val = heapq.heappop(self.large)\n            heapq.heappush(self.small, -val)\n\n    def findMedian(self) -> float:\n        if len(self.small) > len(self.large):\n            return float(-self.small[0])\n        return (-self.small[0] + self.large[0]) / 2.0",
+    "cpp": "#include <queue>\n#include <vector>\n\nclass MedianFinder {\n    std::priority_queue<int> maxHeap; // Lower half\n    std::priority_queue<int, std::vector<int>, std::greater<int>> minHeap; // Upper half\npublic:\n    void addNum(int num) {\n        maxHeap.push(num);\n        minHeap.push(maxHeap.top());\n        maxHeap.pop();\n        if (minHeap.size() > maxHeap.size()) {\n            maxHeap.push(minHeap.top());\n            minHeap.pop();\n        }\n    }\n    double findMedian() {\n        return maxHeap.size() > minHeap.size() ? maxHeap.top() : (maxHeap.top() + minHeap.top()) / 2.0;\n    }\n};",
+    "java": "import java.util.PriorityQueue;\nimport java.util.Collections;\n\npublic class MedianFinder {\n    private PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());\n    private PriorityQueue<Integer> minHeap = new PriorityQueue<>();\n\n    public void addNum(int num) {\n        maxHeap.offer(num);\n        minHeap.offer(maxHeap.poll());\n        if (minHeap.size() > maxHeap.size()) {\n            maxHeap.offer(minHeap.poll());\n        }\n    }\n\n    public double findMedian() {\n        return maxHeap.size() > minHeap.size() ? maxHeap.peek() : (maxHeap.peek() + minHeap.peek()) / 2.0;\n    }\n}"
+  },
+  "formulas_and_identities": [
+    "Parent Index in 0-indexed Array Heap: parent = (i - 1) // 2",
+    "Left Child: 2*i + 1, Right Child: 2*i + 2",
+    "Build Heap from Array (Heapify): O(n) total time (sum of tree heights)",
+    "Top-K Bounded Heap: maintain min-heap of size K -> O(n log k) runtime and O(k) memory"
+  ],
+  "complexity_table": [
+    {
+      "operation": "Find Min / Max (Peek)",
+      "time": "O(1)",
+      "space": "O(1)"
+    },
+    {
+      "operation": "Push / Pop",
+      "time": "O(log k)",
+      "space": "O(1)"
+    },
+    {
+      "operation": "Build Heap (Heapify)",
+      "time": "O(n)",
+      "space": "O(1) in-place"
+    },
+    {
+      "operation": "Top-K Selection",
+      "time": "O(n log k)",
+      "space": "O(k)"
+    }
+  ],
+  "common_mistakes": [
+    "Python's `heapq` is a MIN-heap by default; negate values `-x` to simulate a Max-Heap.",
+    "Using full sort O(n log n) when finding Kth element instead of bounded heap O(n log k) or QuickSelect O(n).",
+    "Pushing duplicate coordinates onto frontier without a visited set."
+  ],
+  "pattern_to_problem_map": [
+    {
+      "number": 215,
+      "title": "Kth Largest Element in an Array"
+    },
+    {
+      "number": 295,
+      "title": "Find Median from Data Stream"
+    },
+    {
+      "number": 347,
+      "title": "Top K Frequent Elements"
+    },
+    {
+      "number": 373,
+      "title": "Find K Pairs with Smallest Sums"
+    },
+    {
+      "number": 621,
+      "title": "Task Scheduler"
+    }
+  ],
+  "quick_revision": [
+    "Array heap indexing: parent `(i-1)//2`, children `2i+1` and `2i+2`.",
+    "Kth Largest: use a MIN-heap of size K; smallest of the top-K is at heap[0].",
+    "Kth Smallest: use a MAX-heap of size K.",
+    "Stream Median: split numbers into Max-Heap (lower half) and Min-Heap (upper half).",
+    "Building a heap with heapify takes O(n), NOT O(n log n)."
+  ]
+}

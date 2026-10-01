@@ -1,0 +1,70 @@
+{
+  "topic": "Stack & Queue",
+  "when_to_use": [
+    "Keywords: 'next greater / smaller element', 'valid parentheses', 'histogram area', 'sliding window maximum', 'reverse polish notation'.",
+    "Nested or hierarchical structures where innermost subproblems resolve first (LIFO).",
+    "Maintaining monotonically increasing or decreasing sequences."
+  ],
+  "core_idea": "Use stacks for LIFO state backtracking and monotonic boundary tracking; use deques for FIFO window maximums in O(1) amortized time.",
+  "code_templates": {
+    "python": "# 1. Monotonic Decreasing Stack (Next Greater Element)\ndef next_greater_element(nums: list[int]) -> list[int]:\n    n = len(nums)\n    result = [-1] * n\n    stack = [] # stores indices\n    for i in range(n):\n        while stack and nums[stack[-1]] < nums[i]:\n            idx = stack.pop()\n            result[idx] = nums[i]\n        stack.append(i)\n    return result\n\n# 2. Largest Rectangle in Histogram in O(n)\ndef largest_rectangle_area(heights: list[int]) -> int:\n    stack = [] # indices of increasing heights\n    max_area = 0\n    # Append 0 height sentinel to flush remaining items at the end\n    h = heights + [0]\n    for i, curr_h in enumerate(h):\n        while stack and h[stack[-1]] > curr_h:\n            height = h[stack.pop()]\n            width = i if not stack else i - stack[-1] - 1\n            max_area = max(max_area, height * width)\n        stack.append(i)\n    return max_area",
+    "cpp": "#include <vector>\n#include <stack>\n#include <algorithm>\n\nint largestRectangleArea(std::vector<int>& heights) {\n    heights.push_back(0); // Sentinel\n    std::stack<int> s;\n    int maxArea = 0;\n    for (int i = 0; i < (int)heights.size(); ++i) {\n        while (!s.empty() && heights[s.top()] > heights[i]) {\n            int h = heights[s.top()];\n            s.pop();\n            int w = s.empty() ? i : i - s.top() - 1;\n            maxArea = std::max(maxArea, h * w);\n        }\n        s.push(i);\n    }\n    return maxArea;\n}",
+    "java": "import java.util.ArrayDeque;\nimport java.util.Deque;\n\npublic class StackTemplates {\n    public int largestRectangleArea(int[] heights) {\n        Deque<Integer> stack = new ArrayDeque<>();\n        int maxArea = 0;\n        int n = heights.length;\n        for (int i = 0; i <= n; i++) {\n            int currH = (i == n) ? 0 : heights[i];\n            while (!stack.isEmpty() && heights[stack.peek()] > currH) {\n                int h = heights[stack.pop()];\n                int w = stack.isEmpty() ? i : i - stack.peek() - 1;\n                maxArea = Math.max(maxArea, h * w);\n            }\n            stack.push(i);\n        }\n        return maxArea;\n    }\n}"
+  },
+  "formulas_and_identities": [
+    "Histogram Bar Width: width = i if stack.empty() else (i - stack.top() - 1)",
+    "Circular Array Modulo Traversal: process indices from 0 to 2*n - 1 using `i % n`",
+    "Sliding Window Maximum Monotonic Deque: remove elements smaller than incoming and out of index range `i - k + 1`"
+  ],
+  "complexity_table": [
+    {
+      "operation": "Monotonic Stack Pass",
+      "time": "O(n)",
+      "space": "O(n)"
+    },
+    {
+      "operation": "Sliding Window Deque",
+      "time": "O(n)",
+      "space": "O(k)"
+    },
+    {
+      "operation": "MinStack Push/Pop/GetMin",
+      "time": "O(1)",
+      "space": "O(n)"
+    }
+  ],
+  "common_mistakes": [
+    "Storing values on monotonic stack instead of indices (indices give distance/width).",
+    "Not clearing the remaining elements on stack after the loop (or forgetting a sentinel 0).",
+    "Using recursion when stack depth exceeds OS limit."
+  ],
+  "pattern_to_problem_map": [
+    {
+      "number": 20,
+      "title": "Valid Parentheses"
+    },
+    {
+      "number": 84,
+      "title": "Largest Rectangle in Histogram"
+    },
+    {
+      "number": 155,
+      "title": "Min Stack"
+    },
+    {
+      "number": 239,
+      "title": "Sliding Window Maximum"
+    },
+    {
+      "number": 739,
+      "title": "Daily Temperatures"
+    }
+  ],
+  "quick_revision": [
+    "Monotonic stack stores INDICES, enabling width calculations `i - stack.peek() - 1`.",
+    "Next Greater Element uses monotonic decreasing stack; pop on larger element.",
+    "Histogram largest rectangle uses sentinel `0` at end to pop all remaining bars.",
+    "Circular array problems iterate `2 * n` times with `i % n`.",
+    "Sliding window maximum uses deque storing indices in decreasing order of values."
+  ]
+}

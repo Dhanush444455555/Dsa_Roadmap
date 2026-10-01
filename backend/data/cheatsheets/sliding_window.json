@@ -1,0 +1,71 @@
+{
+  "topic": "Sliding Window",
+  "when_to_use": [
+    "Keywords: 'longest / shortest substring with condition', 'subarray with sum / product k', 'at most k distinct characters'.",
+    "Contiguous sequences where adding an element expands the window and removing from left restores validity.",
+    "Exact K condition: convert `Exact(K) = AtMost(K) - AtMost(K - 1)`."
+  ],
+  "core_idea": "Maintain a dynamic or fixed-length window `[left, right]`. Expand `right` to include elements and shrink `left` once the window invariant is violated.",
+  "code_templates": {
+    "python": "# 1. Dynamic Window Template (e.g., Longest Substring Without Repeating)\ndef length_of_longest_substring(s: str) -> int:\n    last_seen = {}\n    left = 0\n    max_len = 0\n    for right, char in enumerate(s):\n        if char in last_seen and last_seen[char] >= left:\n            left = last_seen[char] + 1\n        last_seen[char] = right\n        max_len = max(max_len, right - left + 1)\n    return max_len\n\n# 2. Minimum Window Substring Template\nfrom collections import Counter\ndef min_window(s: str, t: str) -> str:\n    target_counts = Counter(t)\n    window_counts = {}\n    required = len(target_counts)\n    formed = 0\n    left = 0\n    ans = (float(\"inf\"), None, None) # (len, left, right)\n\n    for right, c in enumerate(s):\n        window_counts[c] = window_counts.get(c, 0) + 1\n        if c in target_counts and window_counts[c] == target_counts[c]:\n            formed += 1\n\n        while left <= right and formed == required:\n            if right - left + 1 < ans[0]:\n                ans = (right - left + 1, left, right)\n            char_l = s[left]\n            window_counts[char_l] -= 1\n            if char_l in target_counts and window_counts[char_l] < target_counts[char_l]:\n                formed -= 1\n            left += 1\n    return \"\" if ans[0] == float(\"inf\") else s[ans[1] : ans[2] + 1]",
+    "cpp": "#include <string>\n#include <vector>\n#include <algorithm>\n\nint lengthOfLongestSubstring(const std::string& s) {\n    std::vector<int> lastIndex(256, -1);\n    int maxLen = 0, left = 0;\n    for (int right = 0; right < (int)s.size(); ++right) {\n        if (lastIndex[(unsigned char)s[right]] >= left) {\n            left = lastIndex[(unsigned char)s[right]] + 1;\n        }\n        lastIndex[(unsigned char)s[right]] = right;\n        maxLen = std::max(maxLen, right - left + 1);\n    }\n    return maxLen;\n}",
+    "java": "import java.util.Arrays;\n\npublic class SlidingWindowTemplates {\n    public int lengthOfLongestSubstring(String s) {\n        int[] lastIndex = new int[256];\n        Arrays.fill(lastIndex, -1);\n        int maxLen = 0, left = 0;\n        for (int right = 0; right < s.length(); right++) {\n            char c = s.charAt(right);\n            if (lastIndex[c] >= left) {\n                left = lastIndex[c] + 1;\n            }\n            lastIndex[c] = right;\n            maxLen = Math.max(maxLen, right - left + 1);\n        }\n        return maxLen;\n    }\n}"
+  },
+  "formulas_and_identities": [
+    "Current Window Length: length = right - left + 1",
+    "Count of Valid Subarrays Ending at right: count = right - left + 1",
+    "Exact K Decomposition: Exact(K) = AtMost(K) - AtMost(K - 1)",
+    "Character Replacement Validity: (window_length - max_frequency) <= k"
+  ],
+  "complexity_table": [
+    {
+      "operation": "Dynamic Sliding Window",
+      "time": "O(n)",
+      "space": "O(k) where k is alphabet size"
+    },
+    {
+      "operation": "Fixed Size Sliding Window",
+      "time": "O(n)",
+      "space": "O(1)"
+    },
+    {
+      "operation": "Exact(K) via Dual AtMost(K)",
+      "time": "O(n)",
+      "space": "O(k)"
+    }
+  ],
+  "common_mistakes": [
+    "Shrinking the window with `if` instead of `while` when multiple invalid elements exist.",
+    "Forgetting to update the `left` pointer after checking previous character index.",
+    "Off-by-one errors when computing subarray window length `(right - left + 1)`."
+  ],
+  "pattern_to_problem_map": [
+    {
+      "number": 3,
+      "title": "Longest Substring Without Repeating Characters"
+    },
+    {
+      "number": 76,
+      "title": "Minimum Window Substring"
+    },
+    {
+      "number": 209,
+      "title": "Minimum Size Subarray Sum"
+    },
+    {
+      "number": 424,
+      "title": "Longest Repeating Character Replacement"
+    },
+    {
+      "number": 992,
+      "title": "Subarrays with K Different Integers"
+    }
+  ],
+  "quick_revision": [
+    "Window length is always `r - l + 1`.",
+    "Number of valid subarrays ending at index `r` is `r - l + 1`.",
+    "Convert 'Subarrays with exactly K distinct' into `AtMost(K) - AtMost(K - 1)`.",
+    "In character replacement: window is valid if `window_length - max_freq <= k`.",
+    "Both left and right pointers only move forward, guaranteeing overall O(n) amortized runtime."
+  ]
+}

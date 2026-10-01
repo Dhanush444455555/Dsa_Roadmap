@@ -1,0 +1,7970 @@
+[
+  {
+    "id": 1,
+    "leetcode_number": 88,
+    "title": "Merge Sorted Array",
+    "slug": "merge-sorted-array",
+    "difficulty": "Easy",
+    "topics": [
+      "Arrays"
+    ],
+    "subtopics": [
+      "Arrays Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #88 problem focusing on Arrays.",
+    "similar_problems": [
+      "Arrays Pattern"
+    ],
+    "similar_concept": "Arrays Pattern",
+    "prerequisites": [],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 1
+  },
+  {
+    "id": 2,
+    "leetcode_number": 118,
+    "title": "Pascal's Triangle",
+    "slug": "pascals-triangle",
+    "difficulty": "Easy",
+    "topics": [
+      "Arrays"
+    ],
+    "subtopics": [
+      "Arrays Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #118 problem focusing on Arrays.",
+    "similar_problems": [
+      "Arrays Pattern"
+    ],
+    "similar_concept": "Arrays Pattern",
+    "prerequisites": [],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 1
+  },
+  {
+    "id": 3,
+    "leetcode_number": 169,
+    "title": "Majority Element",
+    "slug": "majority-element",
+    "difficulty": "Easy",
+    "topics": [
+      "Arrays"
+    ],
+    "subtopics": [
+      "Arrays Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Easy LeetCode #169 problem focusing on Arrays.",
+    "similar_problems": [
+      "Arrays Pattern"
+    ],
+    "similar_concept": "Arrays Pattern",
+    "prerequisites": [],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 1
+  },
+  {
+    "id": 4,
+    "leetcode_number": 448,
+    "title": "Find All Numbers Disappeared in an Array",
+    "slug": "find-all-numbers-disappeared-in-an-array",
+    "difficulty": "Easy",
+    "topics": [
+      "Arrays"
+    ],
+    "subtopics": [
+      "Arrays Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Easy LeetCode #448 problem focusing on Arrays.",
+    "similar_problems": [
+      "Arrays Pattern"
+    ],
+    "similar_concept": "Arrays Pattern",
+    "prerequisites": [],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 1
+  },
+  {
+    "id": 5,
+    "leetcode_number": 31,
+    "title": "Next Permutation",
+    "slug": "next-permutation",
+    "difficulty": "Medium",
+    "topics": [
+      "Arrays"
+    ],
+    "subtopics": [
+      "Arrays Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #31 problem focusing on Arrays.",
+    "similar_problems": [
+      "Arrays Pattern"
+    ],
+    "similar_concept": "Arrays Pattern",
+    "prerequisites": [],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 1
+  },
+  {
+    "id": 6,
+    "leetcode_number": 48,
+    "title": "Rotate Image",
+    "slug": "rotate-image",
+    "difficulty": "Medium",
+    "topics": [
+      "Arrays"
+    ],
+    "subtopics": [
+      "Arrays Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #48 problem focusing on Arrays.",
+    "similar_problems": [
+      "Arrays Pattern"
+    ],
+    "similar_concept": "Arrays Pattern",
+    "prerequisites": [],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 1
+  },
+  {
+    "id": 7,
+    "leetcode_number": 53,
+    "title": "Maximum Subarray",
+    "slug": "maximum-subarray",
+    "difficulty": "Medium",
+    "topics": [
+      "Arrays"
+    ],
+    "subtopics": [
+      "Arrays Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #53 problem focusing on Arrays.",
+    "similar_problems": [
+      "Arrays Pattern"
+    ],
+    "similar_concept": "Arrays Pattern",
+    "prerequisites": [],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 1
+  },
+  {
+    "id": 8,
+    "leetcode_number": 54,
+    "title": "Spiral Matrix",
+    "slug": "spiral-matrix",
+    "difficulty": "Medium",
+    "topics": [
+      "Arrays"
+    ],
+    "subtopics": [
+      "Arrays Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #54 problem focusing on Arrays.",
+    "similar_problems": [
+      "Arrays Pattern"
+    ],
+    "similar_concept": "Arrays Pattern",
+    "prerequisites": [],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 1
+  },
+  {
+    "id": 9,
+    "leetcode_number": 73,
+    "title": "Set Matrix Zeroes",
+    "slug": "set-matrix-zeroes",
+    "difficulty": "Medium",
+    "topics": [
+      "Arrays"
+    ],
+    "subtopics": [
+      "Arrays Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #73 problem focusing on Arrays.",
+    "similar_problems": [
+      "Arrays Pattern"
+    ],
+    "similar_concept": "Arrays Pattern",
+    "prerequisites": [],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 1
+  },
+  {
+    "id": 10,
+    "leetcode_number": 75,
+    "title": "Sort Colors",
+    "slug": "sort-colors",
+    "difficulty": "Medium",
+    "topics": [
+      "Arrays"
+    ],
+    "subtopics": [
+      "Arrays Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #75 problem focusing on Arrays.",
+    "similar_problems": [
+      "Arrays Pattern"
+    ],
+    "similar_concept": "Arrays Pattern",
+    "prerequisites": [],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 1
+  },
+  {
+    "id": 11,
+    "leetcode_number": 189,
+    "title": "Rotate Array",
+    "slug": "rotate-array",
+    "difficulty": "Medium",
+    "topics": [
+      "Arrays"
+    ],
+    "subtopics": [
+      "Arrays Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #189 problem focusing on Arrays.",
+    "similar_problems": [
+      "Arrays Pattern"
+    ],
+    "similar_concept": "Arrays Pattern",
+    "prerequisites": [],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 1
+  },
+  {
+    "id": 12,
+    "leetcode_number": 238,
+    "title": "Product of Array Except Self",
+    "slug": "product-of-array-except-self",
+    "difficulty": "Medium",
+    "topics": [
+      "Arrays"
+    ],
+    "subtopics": [
+      "Arrays Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #238 problem focusing on Arrays.",
+    "similar_problems": [
+      "Arrays Pattern"
+    ],
+    "similar_concept": "Arrays Pattern",
+    "prerequisites": [],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 1
+  },
+  {
+    "id": 13,
+    "leetcode_number": 287,
+    "title": "Find the Duplicate Number",
+    "slug": "find-the-duplicate-number",
+    "difficulty": "Medium",
+    "topics": [
+      "Arrays"
+    ],
+    "subtopics": [
+      "Arrays Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #287 problem focusing on Arrays.",
+    "similar_problems": [
+      "Arrays Pattern"
+    ],
+    "similar_concept": "Arrays Pattern",
+    "prerequisites": [],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 1
+  },
+  {
+    "id": 14,
+    "leetcode_number": 581,
+    "title": "Shortest Unsorted Continuous Subarray",
+    "slug": "shortest-unsorted-continuous-subarray",
+    "difficulty": "Medium",
+    "topics": [
+      "Arrays"
+    ],
+    "subtopics": [
+      "Arrays Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #581 problem focusing on Arrays.",
+    "similar_problems": [
+      "Arrays Pattern"
+    ],
+    "similar_concept": "Arrays Pattern",
+    "prerequisites": [],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 1
+  },
+  {
+    "id": 15,
+    "leetcode_number": 41,
+    "title": "First Missing Positive",
+    "slug": "first-missing-positive",
+    "difficulty": "Hard",
+    "topics": [
+      "Arrays"
+    ],
+    "subtopics": [
+      "Arrays Core",
+      "Hard Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Hard LeetCode #41 problem focusing on Arrays.",
+    "similar_problems": [
+      "Arrays Pattern"
+    ],
+    "similar_concept": "Arrays Pattern",
+    "prerequisites": [],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 1
+  },
+  {
+    "id": 16,
+    "leetcode_number": 9,
+    "title": "Palindrome Number",
+    "slug": "palindrome-number",
+    "difficulty": "Easy",
+    "topics": [
+      "Math"
+    ],
+    "subtopics": [
+      "Math Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #9 problem focusing on Math.",
+    "similar_problems": [
+      "Math Pattern"
+    ],
+    "similar_concept": "Math Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 2
+  },
+  {
+    "id": 17,
+    "leetcode_number": 66,
+    "title": "Plus One",
+    "slug": "plus-one",
+    "difficulty": "Easy",
+    "topics": [
+      "Math"
+    ],
+    "subtopics": [
+      "Math Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #66 problem focusing on Math.",
+    "similar_problems": [
+      "Math Pattern"
+    ],
+    "similar_concept": "Math Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 2
+  },
+  {
+    "id": 18,
+    "leetcode_number": 202,
+    "title": "Happy Number",
+    "slug": "happy-number",
+    "difficulty": "Easy",
+    "topics": [
+      "Math"
+    ],
+    "subtopics": [
+      "Math Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #202 problem focusing on Math.",
+    "similar_problems": [
+      "Math Pattern"
+    ],
+    "similar_concept": "Math Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 2
+  },
+  {
+    "id": 19,
+    "leetcode_number": 1,
+    "title": "Two Sum",
+    "slug": "two-sum",
+    "difficulty": "Easy",
+    "topics": [
+      "Hashing"
+    ],
+    "subtopics": [
+      "Hashing Core",
+      "Easy Level"
+    ],
+    "source": "both",
+    "description": "Standard Easy LeetCode #1 problem focusing on Hashing.",
+    "similar_problems": [
+      "Basic Hashing / HashMap"
+    ],
+    "similar_concept": "Basic Hashing / HashMap",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 3
+  },
+  {
+    "id": 20,
+    "leetcode_number": 217,
+    "title": "Contains Duplicate",
+    "slug": "contains-duplicate",
+    "difficulty": "Easy",
+    "topics": [
+      "Hashing"
+    ],
+    "subtopics": [
+      "Hashing Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #217 problem focusing on Hashing.",
+    "similar_problems": [
+      "Basic Hashing using unordered_set"
+    ],
+    "similar_concept": "Basic Hashing using unordered_set",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 3
+  },
+  {
+    "id": 21,
+    "leetcode_number": 219,
+    "title": "Contains Duplicate II",
+    "slug": "contains-duplicate-ii",
+    "difficulty": "Easy",
+    "topics": [
+      "Hashing"
+    ],
+    "subtopics": [
+      "Hashing Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #219 problem focusing on Hashing.",
+    "similar_problems": [
+      "Hashing + index tracking"
+    ],
+    "similar_concept": "Hashing + index tracking",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 3
+  },
+  {
+    "id": 22,
+    "leetcode_number": 242,
+    "title": "Valid Anagram",
+    "slug": "valid-anagram",
+    "difficulty": "Easy",
+    "topics": [
+      "Hashing"
+    ],
+    "subtopics": [
+      "Hashing Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #242 problem focusing on Hashing.",
+    "similar_problems": [
+      "Hashing Pattern"
+    ],
+    "similar_concept": "Hashing Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 3
+  },
+  {
+    "id": 23,
+    "leetcode_number": 771,
+    "title": "Jewels and Stones",
+    "slug": "jewels-and-stones",
+    "difficulty": "Easy",
+    "topics": [
+      "Hashing"
+    ],
+    "subtopics": [
+      "Hashing Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Easy LeetCode #771 problem focusing on Hashing.",
+    "similar_problems": [
+      "Hashing Pattern"
+    ],
+    "similar_concept": "Hashing Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 3
+  },
+  {
+    "id": 24,
+    "leetcode_number": 49,
+    "title": "Group Anagrams",
+    "slug": "group-anagrams",
+    "difficulty": "Medium",
+    "topics": [
+      "Hashing"
+    ],
+    "subtopics": [
+      "Hashing Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #49 problem focusing on Hashing.",
+    "similar_problems": [
+      "Hashing Pattern"
+    ],
+    "similar_concept": "Hashing Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 3
+  },
+  {
+    "id": 25,
+    "leetcode_number": 128,
+    "title": "Longest Consecutive Sequence",
+    "slug": "longest-consecutive-sequence",
+    "difficulty": "Medium",
+    "topics": [
+      "Hashing"
+    ],
+    "subtopics": [
+      "Hashing Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #128 problem focusing on Hashing.",
+    "similar_problems": [
+      "Longest Consecutive Sequence in an Array"
+    ],
+    "similar_concept": "Longest Consecutive Sequence in an Array",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 3
+  },
+  {
+    "id": 26,
+    "leetcode_number": 325,
+    "title": "Maximum Size Subarray Sum Equals k",
+    "slug": "maximum-size-subarray-sum-equals-k",
+    "difficulty": "Medium",
+    "topics": [
+      "Hashing"
+    ],
+    "subtopics": [
+      "Hashing Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #325 problem focusing on Hashing.",
+    "similar_problems": [
+      "Longest Subarray with Sum K"
+    ],
+    "similar_concept": "Longest Subarray with Sum K",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 3
+  },
+  {
+    "id": 27,
+    "leetcode_number": 525,
+    "title": "Contiguous Array",
+    "slug": "contiguous-array",
+    "difficulty": "Medium",
+    "topics": [
+      "Hashing"
+    ],
+    "subtopics": [
+      "Hashing Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #525 problem focusing on Hashing.",
+    "similar_problems": [
+      "Similar prefix-sum technique for finding longest subarray with sum 0"
+    ],
+    "similar_concept": "Similar prefix-sum technique for finding longest subarray with sum 0",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 3
+  },
+  {
+    "id": 28,
+    "leetcode_number": 560,
+    "title": "Subarray Sum Equals K",
+    "slug": "subarray-sum-equals-k",
+    "difficulty": "Medium",
+    "topics": [
+      "Hashing"
+    ],
+    "subtopics": [
+      "Hashing Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #560 problem focusing on Hashing.",
+    "similar_problems": [
+      "Count Subarrays with Given Sum"
+    ],
+    "similar_concept": "Count Subarrays with Given Sum",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 3
+  },
+  {
+    "id": 29,
+    "leetcode_number": 930,
+    "title": "Binary Subarrays With Sum",
+    "slug": "binary-subarrays-with-sum",
+    "difficulty": "Medium",
+    "topics": [
+      "Hashing"
+    ],
+    "subtopics": [
+      "Hashing Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #930 problem focusing on Hashing.",
+    "similar_problems": [
+      "Count Subarrays with Given Sum"
+    ],
+    "similar_concept": "Count Subarrays with Given Sum",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 3
+  },
+  {
+    "id": 30,
+    "leetcode_number": 974,
+    "title": "Subarray Sums Divisible by K",
+    "slug": "subarray-sums-divisible-by-k",
+    "difficulty": "Medium",
+    "topics": [
+      "Hashing"
+    ],
+    "subtopics": [
+      "Hashing Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #974 problem focusing on Hashing.",
+    "similar_problems": [
+      "Similar prefix-sum + frequency-map technique"
+    ],
+    "similar_concept": "Similar prefix-sum + frequency-map technique",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 3
+  },
+  {
+    "id": 31,
+    "leetcode_number": 1248,
+    "title": "Count Number of Nice Subarrays",
+    "slug": "count-number-of-nice-subarrays",
+    "difficulty": "Medium",
+    "topics": [
+      "Hashing"
+    ],
+    "subtopics": [
+      "Hashing Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1248 problem focusing on Hashing.",
+    "similar_problems": [
+      "Similar prefix-sum/counting technique"
+    ],
+    "similar_concept": "Similar prefix-sum/counting technique",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 3
+  },
+  {
+    "id": 32,
+    "leetcode_number": 2588,
+    "title": "Count the Number of Beautiful Subarrays",
+    "slug": "count-the-number-of-beautiful-subarrays",
+    "difficulty": "Medium",
+    "topics": [
+      "Hashing"
+    ],
+    "subtopics": [
+      "Hashing Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #2588 problem focusing on Hashing.",
+    "similar_problems": [
+      "Similar XOR-prefix technique"
+    ],
+    "similar_concept": "Similar XOR-prefix technique",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 3
+  },
+  {
+    "id": 33,
+    "leetcode_number": 13,
+    "title": "Roman to Integer",
+    "slug": "roman-to-integer",
+    "difficulty": "Easy",
+    "topics": [
+      "Strings"
+    ],
+    "subtopics": [
+      "Strings Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #13 problem focusing on Strings.",
+    "similar_problems": [
+      "Strings Pattern"
+    ],
+    "similar_concept": "Strings Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 4
+  },
+  {
+    "id": 34,
+    "leetcode_number": 14,
+    "title": "Longest Common Prefix",
+    "slug": "longest-common-prefix",
+    "difficulty": "Easy",
+    "topics": [
+      "Strings"
+    ],
+    "subtopics": [
+      "Strings Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #14 problem focusing on Strings.",
+    "similar_problems": [
+      "Strings Pattern"
+    ],
+    "similar_concept": "Strings Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 4
+  },
+  {
+    "id": 35,
+    "leetcode_number": 1021,
+    "title": "Remove Outermost Parentheses",
+    "slug": "remove-outermost-parentheses",
+    "difficulty": "Easy",
+    "topics": [
+      "Strings"
+    ],
+    "subtopics": [
+      "Strings Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #1021 problem focusing on Strings.",
+    "similar_problems": [
+      "Strings Pattern"
+    ],
+    "similar_concept": "Strings Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 4
+  },
+  {
+    "id": 36,
+    "leetcode_number": 1614,
+    "title": "Maximum Nesting Depth of the Parentheses",
+    "slug": "maximum-nesting-depth-of-the-parentheses",
+    "difficulty": "Easy",
+    "topics": [
+      "Strings"
+    ],
+    "subtopics": [
+      "Strings Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #1614 problem focusing on Strings.",
+    "similar_problems": [
+      "Maximum Nesting Depth"
+    ],
+    "similar_concept": "Maximum Nesting Depth",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 4
+  },
+  {
+    "id": 37,
+    "leetcode_number": 3,
+    "title": "Longest Substring Without Repeating Characters",
+    "slug": "longest-substring-without-repeating-characters",
+    "difficulty": "Medium",
+    "topics": [
+      "Strings"
+    ],
+    "subtopics": [
+      "Strings Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #3 problem focusing on Strings.",
+    "similar_problems": [
+      "Useful similar substring/sliding-window problem"
+    ],
+    "similar_concept": "Useful similar substring/sliding-window problem",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 4
+  },
+  {
+    "id": 38,
+    "leetcode_number": 5,
+    "title": "Longest Palindromic Substring",
+    "slug": "longest-palindromic-substring",
+    "difficulty": "Medium",
+    "topics": [
+      "Strings"
+    ],
+    "subtopics": [
+      "Strings Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #5 problem focusing on Strings.",
+    "similar_problems": [
+      "Strings Pattern"
+    ],
+    "similar_concept": "Strings Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 4
+  },
+  {
+    "id": 39,
+    "leetcode_number": 8,
+    "title": "String to Integer (atoi)",
+    "slug": "string-to-integer-atoi",
+    "difficulty": "Medium",
+    "topics": [
+      "Strings"
+    ],
+    "subtopics": [
+      "Strings Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #8 problem focusing on Strings.",
+    "similar_problems": [
+      "Strings Pattern"
+    ],
+    "similar_concept": "Strings Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 4
+  },
+  {
+    "id": 40,
+    "leetcode_number": 424,
+    "title": "Longest Repeating Character Replacement",
+    "slug": "longest-repeating-character-replacement",
+    "difficulty": "Medium",
+    "topics": [
+      "Strings"
+    ],
+    "subtopics": [
+      "Strings Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #424 problem focusing on Strings.",
+    "similar_problems": [
+      "Similar substring + frequency counting"
+    ],
+    "similar_concept": "Similar substring + frequency counting",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 4
+  },
+  {
+    "id": 41,
+    "leetcode_number": 438,
+    "title": "Find All Anagrams in a String",
+    "slug": "find-all-anagrams-in-a-string",
+    "difficulty": "Medium",
+    "topics": [
+      "Strings"
+    ],
+    "subtopics": [
+      "Strings Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #438 problem focusing on Strings.",
+    "similar_problems": [
+      "Strings Pattern"
+    ],
+    "similar_concept": "Strings Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 4
+  },
+  {
+    "id": 42,
+    "leetcode_number": 647,
+    "title": "Palindromic Substrings",
+    "slug": "palindromic-substrings",
+    "difficulty": "Medium",
+    "topics": [
+      "Strings"
+    ],
+    "subtopics": [
+      "Strings Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #647 problem focusing on Strings.",
+    "similar_problems": [
+      "Longest Palindromic Substring"
+    ],
+    "similar_concept": "Longest Palindromic Substring",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 4
+  },
+  {
+    "id": 43,
+    "leetcode_number": 1358,
+    "title": "Number of Substrings Containing All Three Characters",
+    "slug": "number-of-substrings-containing-all-three-characters",
+    "difficulty": "Medium",
+    "topics": [
+      "Strings"
+    ],
+    "subtopics": [
+      "Strings Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1358 problem focusing on Strings.",
+    "similar_problems": [
+      "Count Number of Substrings"
+    ],
+    "similar_concept": "Count Number of Substrings",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 4
+  },
+  {
+    "id": 44,
+    "leetcode_number": 1781,
+    "title": "Sum of Beauty of All Substrings",
+    "slug": "sum-of-beauty-of-all-substrings",
+    "difficulty": "Medium",
+    "topics": [
+      "Strings"
+    ],
+    "subtopics": [
+      "Strings Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1781 problem focusing on Strings.",
+    "similar_problems": [
+      "Strings Pattern"
+    ],
+    "similar_concept": "Strings Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 4
+  },
+  {
+    "id": 45,
+    "leetcode_number": 76,
+    "title": "Minimum Window Substring",
+    "slug": "minimum-window-substring",
+    "difficulty": "Hard",
+    "topics": [
+      "Strings"
+    ],
+    "subtopics": [
+      "Strings Core",
+      "Hard Level"
+    ],
+    "source": "both",
+    "description": "Standard Hard LeetCode #76 problem focusing on Strings.",
+    "similar_problems": [
+      "Advanced substring + frequency/hash-map technique"
+    ],
+    "similar_concept": "Advanced substring + frequency/hash-map technique",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 4
+  },
+  {
+    "id": 46,
+    "leetcode_number": 26,
+    "title": "Remove Duplicates from Sorted Array",
+    "slug": "remove-duplicates-from-sorted-array",
+    "difficulty": "Easy",
+    "topics": [
+      "Two Pointers",
+      "Arrays"
+    ],
+    "subtopics": [
+      "Two Pointers Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #26 problem focusing on Two Pointers.",
+    "similar_problems": [
+      "Two Pointers Pattern"
+    ],
+    "similar_concept": "Two Pointers Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 5
+  },
+  {
+    "id": 47,
+    "leetcode_number": 125,
+    "title": "Valid Palindrome",
+    "slug": "valid-palindrome",
+    "difficulty": "Easy",
+    "topics": [
+      "Two Pointers",
+      "Arrays"
+    ],
+    "subtopics": [
+      "Two Pointers Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #125 problem focusing on Two Pointers.",
+    "similar_problems": [
+      "Two Pointers Pattern"
+    ],
+    "similar_concept": "Two Pointers Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 5
+  },
+  {
+    "id": 48,
+    "leetcode_number": 283,
+    "title": "Move Zeroes",
+    "slug": "move-zeroes",
+    "difficulty": "Easy",
+    "topics": [
+      "Two Pointers",
+      "Arrays"
+    ],
+    "subtopics": [
+      "Two Pointers Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Easy LeetCode #283 problem focusing on Two Pointers.",
+    "similar_problems": [
+      "Two Pointers Pattern"
+    ],
+    "similar_concept": "Two Pointers Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 5
+  },
+  {
+    "id": 49,
+    "leetcode_number": 392,
+    "title": "Is Subsequence",
+    "slug": "is-subsequence",
+    "difficulty": "Easy",
+    "topics": [
+      "Two Pointers",
+      "Arrays"
+    ],
+    "subtopics": [
+      "Two Pointers Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #392 problem focusing on Two Pointers.",
+    "similar_problems": [
+      "Two Pointers Pattern"
+    ],
+    "similar_concept": "Two Pointers Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 5
+  },
+  {
+    "id": 50,
+    "leetcode_number": 11,
+    "title": "Container With Most Water",
+    "slug": "container-with-most-water",
+    "difficulty": "Medium",
+    "topics": [
+      "Two Pointers",
+      "Arrays"
+    ],
+    "subtopics": [
+      "Two Pointers Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #11 problem focusing on Two Pointers.",
+    "similar_problems": [
+      "Two Pointers Pattern"
+    ],
+    "similar_concept": "Two Pointers Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 5
+  },
+  {
+    "id": 51,
+    "leetcode_number": 15,
+    "title": "3Sum",
+    "slug": "3sum",
+    "difficulty": "Medium",
+    "topics": [
+      "Two Pointers",
+      "Arrays"
+    ],
+    "subtopics": [
+      "Two Pointers Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #15 problem focusing on Two Pointers.",
+    "similar_problems": [
+      "Two Pointers on Sorted Array"
+    ],
+    "similar_concept": "Two Pointers on Sorted Array",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 5
+  },
+  {
+    "id": 52,
+    "leetcode_number": 167,
+    "title": "Two Sum II - Input Array Is Sorted",
+    "slug": "two-sum-ii---input-array-is-sorted",
+    "difficulty": "Medium",
+    "topics": [
+      "Two Pointers",
+      "Arrays"
+    ],
+    "subtopics": [
+      "Two Pointers Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #167 problem focusing on Two Pointers.",
+    "similar_problems": [
+      "Two Pointers Pattern"
+    ],
+    "similar_concept": "Two Pointers Pattern",
+    "prerequisites": [
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 5
+  },
+  {
+    "id": 53,
+    "leetcode_number": 209,
+    "title": "Minimum Size Subarray Sum",
+    "slug": "minimum-size-subarray-sum",
+    "difficulty": "Medium",
+    "topics": [
+      "Sliding Window",
+      "Arrays"
+    ],
+    "subtopics": [
+      "Sliding Window Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #209 problem focusing on Sliding Window.",
+    "similar_problems": [
+      "Sliding Window Pattern"
+    ],
+    "similar_concept": "Sliding Window Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 6
+  },
+  {
+    "id": 54,
+    "leetcode_number": 567,
+    "title": "Permutation in String",
+    "slug": "permutation-in-string",
+    "difficulty": "Medium",
+    "topics": [
+      "Sliding Window",
+      "Arrays"
+    ],
+    "subtopics": [
+      "Sliding Window Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #567 problem focusing on Sliding Window.",
+    "similar_problems": [
+      "Sliding Window Pattern"
+    ],
+    "similar_concept": "Sliding Window Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 6
+  },
+  {
+    "id": 55,
+    "leetcode_number": 136,
+    "title": "Single Number",
+    "slug": "single-number",
+    "difficulty": "Easy",
+    "topics": [
+      "Bit Manipulation"
+    ],
+    "subtopics": [
+      "Bit Manipulation Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Easy LeetCode #136 problem focusing on Bit Manipulation.",
+    "similar_problems": [
+      "Bit Manipulation Pattern"
+    ],
+    "similar_concept": "Bit Manipulation Pattern",
+    "prerequisites": [
+      "Math"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 7
+  },
+  {
+    "id": 56,
+    "leetcode_number": 191,
+    "title": "Number of 1 Bits",
+    "slug": "number-of-1-bits",
+    "difficulty": "Easy",
+    "topics": [
+      "Bit Manipulation"
+    ],
+    "subtopics": [
+      "Bit Manipulation Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #191 problem focusing on Bit Manipulation.",
+    "similar_problems": [
+      "Bit Manipulation Pattern"
+    ],
+    "similar_concept": "Bit Manipulation Pattern",
+    "prerequisites": [
+      "Math"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 7
+  },
+  {
+    "id": 57,
+    "leetcode_number": 231,
+    "title": "Power of Two",
+    "slug": "power-of-two",
+    "difficulty": "Easy",
+    "topics": [
+      "Bit Manipulation"
+    ],
+    "subtopics": [
+      "Bit Manipulation Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #231 problem focusing on Bit Manipulation.",
+    "similar_problems": [
+      "Bit Manipulation Pattern"
+    ],
+    "similar_concept": "Bit Manipulation Pattern",
+    "prerequisites": [
+      "Math"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 7
+  },
+  {
+    "id": 58,
+    "leetcode_number": 268,
+    "title": "Missing Number",
+    "slug": "missing-number",
+    "difficulty": "Easy",
+    "topics": [
+      "Bit Manipulation"
+    ],
+    "subtopics": [
+      "Bit Manipulation Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #268 problem focusing on Bit Manipulation.",
+    "similar_problems": [
+      "Bit Manipulation Pattern"
+    ],
+    "similar_concept": "Bit Manipulation Pattern",
+    "prerequisites": [
+      "Math"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 7
+  },
+  {
+    "id": 59,
+    "leetcode_number": 338,
+    "title": "Counting Bits",
+    "slug": "counting-bits",
+    "difficulty": "Easy",
+    "topics": [
+      "Bit Manipulation"
+    ],
+    "subtopics": [
+      "Bit Manipulation Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Easy LeetCode #338 problem focusing on Bit Manipulation.",
+    "similar_problems": [
+      "Bit Manipulation Pattern"
+    ],
+    "similar_concept": "Bit Manipulation Pattern",
+    "prerequisites": [
+      "Math"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 7
+  },
+  {
+    "id": 60,
+    "leetcode_number": 461,
+    "title": "Hamming Distance",
+    "slug": "hamming-distance",
+    "difficulty": "Easy",
+    "topics": [
+      "Bit Manipulation"
+    ],
+    "subtopics": [
+      "Bit Manipulation Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Easy LeetCode #461 problem focusing on Bit Manipulation.",
+    "similar_problems": [
+      "Bit Manipulation Pattern"
+    ],
+    "similar_concept": "Bit Manipulation Pattern",
+    "prerequisites": [
+      "Math"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 7
+  },
+  {
+    "id": 61,
+    "leetcode_number": 20,
+    "title": "Valid Parentheses",
+    "slug": "valid-parentheses",
+    "difficulty": "Easy",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Easy Level"
+    ],
+    "source": "both",
+    "description": "Standard Easy LeetCode #20 problem focusing on Stack.",
+    "similar_problems": [
+      "LIFO Stack Matching"
+    ],
+    "similar_concept": "LIFO Stack Matching",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 62,
+    "leetcode_number": 225,
+    "title": "Implement Stack using Queues",
+    "slug": "implement-stack-using-queues",
+    "difficulty": "Easy",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #225 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 20,
+    "note": "imp points use swap function blw two implement queues",
+    "suggested_day": 8
+  },
+  {
+    "id": 63,
+    "leetcode_number": 232,
+    "title": "Implement Queue using Stacks",
+    "slug": "implement-queue-using-stacks",
+    "difficulty": "Easy",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #232 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 64,
+    "leetcode_number": 496,
+    "title": "Next Greater Element I",
+    "slug": "next-greater-element-i",
+    "difficulty": "Easy",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #496 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 20,
+    "note": "its like circular thing where we use 2n-1 in for loop and descend that and push to ans where index<n",
+    "suggested_day": 8
+  },
+  {
+    "id": 65,
+    "leetcode_number": 150,
+    "title": "Evaluate Reverse Polish Notation",
+    "slug": "evaluate-reverse-polish-notation",
+    "difficulty": "Medium",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #150 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 66,
+    "leetcode_number": 155,
+    "title": "Min Stack",
+    "slug": "min-stack",
+    "difficulty": "Medium",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #155 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 67,
+    "leetcode_number": 277,
+    "title": "Find the Celebrity",
+    "slug": "find-the-celebrity",
+    "difficulty": "Medium",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #277 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 68,
+    "leetcode_number": 394,
+    "title": "Decode String",
+    "slug": "decode-string",
+    "difficulty": "Medium",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #394 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 69,
+    "leetcode_number": 402,
+    "title": "Remove K Digits",
+    "slug": "remove-k-digits",
+    "difficulty": "Medium",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #402 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 70,
+    "leetcode_number": 503,
+    "title": "Next Greater Element II",
+    "slug": "next-greater-element-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #503 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 71,
+    "leetcode_number": 735,
+    "title": "Asteroid Collision",
+    "slug": "asteroid-collision",
+    "difficulty": "Medium",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #735 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 72,
+    "leetcode_number": 739,
+    "title": "Daily Temperatures",
+    "slug": "daily-temperatures",
+    "difficulty": "Medium",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #739 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 73,
+    "leetcode_number": 901,
+    "title": "Online Stock Span",
+    "slug": "online-stock-span",
+    "difficulty": "Medium",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #901 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 74,
+    "leetcode_number": 907,
+    "title": "Sum of Subarray Minimums",
+    "slug": "sum-of-subarray-minimums",
+    "difficulty": "Medium",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #907 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 75,
+    "leetcode_number": 2104,
+    "title": "Sum of Subarray Ranges",
+    "slug": "sum-of-subarray-ranges",
+    "difficulty": "Medium",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #2104 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 76,
+    "leetcode_number": 42,
+    "title": "Trapping Rain Water",
+    "slug": "trapping-rain-water",
+    "difficulty": "Hard",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Hard Level"
+    ],
+    "source": "both",
+    "description": "Standard Hard LeetCode #42 problem focusing on Stack.",
+    "similar_problems": [
+      "Two Pointers / Monotonic Stack Elevation"
+    ],
+    "similar_concept": "Two Pointers / Monotonic Stack Elevation",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 77,
+    "leetcode_number": 84,
+    "title": "Largest Rectangle in Histogram",
+    "slug": "largest-rectangle-in-histogram",
+    "difficulty": "Hard",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Hard Level"
+    ],
+    "source": "both",
+    "description": "Standard Hard LeetCode #84 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 78,
+    "leetcode_number": 85,
+    "title": "Maximal Rectangle",
+    "slug": "maximal-rectangle",
+    "difficulty": "Hard",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Hard Level"
+    ],
+    "source": "both",
+    "description": "Standard Hard LeetCode #85 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 79,
+    "leetcode_number": 239,
+    "title": "Sliding Window Maximum",
+    "slug": "sliding-window-maximum",
+    "difficulty": "Hard",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Hard Level"
+    ],
+    "source": "both",
+    "description": "Standard Hard LeetCode #239 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 80,
+    "leetcode_number": 460,
+    "title": "LFU Cache",
+    "slug": "lfu-cache",
+    "difficulty": "Hard",
+    "topics": [
+      "Stack"
+    ],
+    "subtopics": [
+      "Stack Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #460 problem focusing on Stack.",
+    "similar_problems": [
+      "Stack Pattern"
+    ],
+    "similar_concept": "Stack Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Linked List"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 8
+  },
+  {
+    "id": 81,
+    "leetcode_number": 21,
+    "title": "Merge Two Sorted Lists",
+    "slug": "merge-two-sorted-lists",
+    "difficulty": "Easy",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Easy Level"
+    ],
+    "source": "both",
+    "description": "Standard Easy LeetCode #21 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 82,
+    "leetcode_number": 83,
+    "title": "Remove Duplicates from Sorted List",
+    "slug": "remove-duplicates-from-sorted-list",
+    "difficulty": "Easy",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #83 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 83,
+    "leetcode_number": 141,
+    "title": "Linked List Cycle",
+    "slug": "linked-list-cycle",
+    "difficulty": "Easy",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Easy Level"
+    ],
+    "source": "both",
+    "description": "Standard Easy LeetCode #141 problem focusing on Linked List.",
+    "similar_problems": [
+      "Floyd's Tortoise and Hare Cycle Detection"
+    ],
+    "similar_concept": "Floyd's Tortoise and Hare Cycle Detection",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 84,
+    "leetcode_number": 160,
+    "title": "Intersection of Two Linked Lists",
+    "slug": "intersection-of-two-linked-lists",
+    "difficulty": "Easy",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Easy Level"
+    ],
+    "source": "both",
+    "description": "Standard Easy LeetCode #160 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 85,
+    "leetcode_number": 203,
+    "title": "Remove Linked List Elements",
+    "slug": "remove-linked-list-elements",
+    "difficulty": "Easy",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #203 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 86,
+    "leetcode_number": 206,
+    "title": "Reverse Linked List",
+    "slug": "reverse-linked-list",
+    "difficulty": "Easy",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Easy Level"
+    ],
+    "source": "both",
+    "description": "Standard Easy LeetCode #206 problem focusing on Linked List.",
+    "similar_problems": [
+      "Iterative Pointer Reversal"
+    ],
+    "similar_concept": "Iterative Pointer Reversal",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 87,
+    "leetcode_number": 234,
+    "title": "Palindrome Linked List",
+    "slug": "palindrome-linked-list",
+    "difficulty": "Easy",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Easy Level"
+    ],
+    "source": "both",
+    "description": "Standard Easy LeetCode #234 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 88,
+    "leetcode_number": 876,
+    "title": "Middle of the Linked List",
+    "slug": "middle-of-the-linked-list",
+    "difficulty": "Easy",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #876 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 89,
+    "leetcode_number": 2,
+    "title": "Add Two Numbers",
+    "slug": "add-two-numbers",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #2 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 90,
+    "leetcode_number": 19,
+    "title": "Remove Nth Node From End of List",
+    "slug": "remove-nth-node-from-end-of-list",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #19 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 91,
+    "leetcode_number": 24,
+    "title": "Swap Nodes in Pairs",
+    "slug": "swap-nodes-in-pairs",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #24 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 92,
+    "leetcode_number": 61,
+    "title": "Rotate List",
+    "slug": "rotate-list",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #61 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 93,
+    "leetcode_number": 82,
+    "title": "Remove Duplicates from Sorted List II",
+    "slug": "remove-duplicates-from-sorted-list-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #82 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 94,
+    "leetcode_number": 92,
+    "title": "Reverse Linked List II",
+    "slug": "reverse-linked-list-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #92 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 95,
+    "leetcode_number": 138,
+    "title": "Copy List with Random Pointer",
+    "slug": "copy-list-with-random-pointer",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #138 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 96,
+    "leetcode_number": 142,
+    "title": "Linked List Cycle II",
+    "slug": "linked-list-cycle-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #142 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 97,
+    "leetcode_number": 143,
+    "title": "Reorder List",
+    "slug": "reorder-list",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #143 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 98,
+    "leetcode_number": 146,
+    "title": "LRU Cache",
+    "slug": "lru-cache",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #146 problem focusing on Linked List.",
+    "similar_problems": [
+      "Doubly Linked List + HashMap"
+    ],
+    "similar_concept": "Doubly Linked List + HashMap",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 99,
+    "leetcode_number": 148,
+    "title": "Sort List",
+    "slug": "sort-list",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #148 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 100,
+    "leetcode_number": 328,
+    "title": "Odd Even Linked List",
+    "slug": "odd-even-linked-list",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #328 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 101,
+    "leetcode_number": 430,
+    "title": "Flatten a Multilevel Doubly Linked List",
+    "slug": "flatten-a-multilevel-doubly-linked-list",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #430 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 102,
+    "leetcode_number": 725,
+    "title": "Split Linked List in Parts",
+    "slug": "split-linked-list-in-parts",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #725 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 103,
+    "leetcode_number": 2095,
+    "title": "Delete the Middle Node of a Linked List",
+    "slug": "delete-the-middle-node-of-a-linked-list",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #2095 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 104,
+    "leetcode_number": 23,
+    "title": "Merge k Sorted Lists",
+    "slug": "merge-k-sorted-lists",
+    "difficulty": "Hard",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Hard Level"
+    ],
+    "source": "both",
+    "description": "Standard Hard LeetCode #23 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 105,
+    "leetcode_number": 25,
+    "title": "Reverse Nodes in k-Group",
+    "slug": "reverse-nodes-in-k-group",
+    "difficulty": "Hard",
+    "topics": [
+      "Linked List"
+    ],
+    "subtopics": [
+      "Linked List Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #25 problem focusing on Linked List.",
+    "similar_problems": [
+      "Linked List Pattern"
+    ],
+    "similar_concept": "Linked List Pattern",
+    "prerequisites": [
+      "Pointers"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 9
+  },
+  {
+    "id": 106,
+    "leetcode_number": 35,
+    "title": "Search Insert Position",
+    "slug": "search-insert-position",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #35 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Search insert position / Lower Bound"
+    ],
+    "similar_concept": "Search insert position / Lower Bound",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 107,
+    "leetcode_number": 69,
+    "title": "Sqrt(x)",
+    "slug": "sqrtx",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #69 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Find square root of a number"
+    ],
+    "similar_concept": "Find square root of a number",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 108,
+    "leetcode_number": 367,
+    "title": "Valid Perfect Square",
+    "slug": "valid-perfect-square",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #367 problem focusing on Binary Search.",
+    "similar_problems": [
+      "square-root binary search"
+    ],
+    "similar_concept": "square-root binary search",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 109,
+    "leetcode_number": 704,
+    "title": "Binary Search",
+    "slug": "binary-search",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #704 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Divide and Conquer Search"
+    ],
+    "similar_concept": "Divide and Conquer Search",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 110,
+    "leetcode_number": 744,
+    "title": "Find Smallest Letter Greater Than Target",
+    "slug": "find-smallest-letter-greater-than-target",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #744 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Upper Bound / Ceiling"
+    ],
+    "similar_concept": "Upper Bound / Ceiling",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 111,
+    "leetcode_number": 2643,
+    "title": "Row With Maximum Ones",
+    "slug": "row-with-maximum-ones",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #2643 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Find row with maximum 1's"
+    ],
+    "similar_concept": "Find row with maximum 1's",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 112,
+    "leetcode_number": 33,
+    "title": "Search in Rotated Sorted Array",
+    "slug": "search-in-rotated-sorted-array",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #33 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Search in rotated sorted array-I"
+    ],
+    "similar_concept": "Search in rotated sorted array-I",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 113,
+    "leetcode_number": 34,
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "slug": "find-first-and-last-position-of-element-in-sorted-array",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #34 problem focusing on Binary Search.",
+    "similar_problems": [
+      "First and last occurrence"
+    ],
+    "similar_concept": "First and last occurrence",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 114,
+    "leetcode_number": 74,
+    "title": "Search a 2D Matrix",
+    "slug": "search-a-2d-matrix",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #74 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Search in a 2D Matrix"
+    ],
+    "similar_concept": "Search in a 2D Matrix",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 115,
+    "leetcode_number": 81,
+    "title": "Search in Rotated Sorted Array II",
+    "slug": "search-in-rotated-sorted-array-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #81 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Binary Search Pattern"
+    ],
+    "similar_concept": "Binary Search Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 116,
+    "leetcode_number": 153,
+    "title": "Find Minimum in Rotated Sorted Array",
+    "slug": "find-minimum-in-rotated-sorted-array",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #153 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Binary Search Pattern"
+    ],
+    "similar_concept": "Binary Search Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 117,
+    "leetcode_number": 162,
+    "title": "Find Peak Element",
+    "slug": "find-peak-element",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #162 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Binary Search Pattern"
+    ],
+    "similar_concept": "Binary Search Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 118,
+    "leetcode_number": 240,
+    "title": "Search a 2D Matrix II",
+    "slug": "search-a-2d-matrix-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #240 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Search in 2D Matrix-II"
+    ],
+    "similar_concept": "Search in 2D Matrix-II",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 119,
+    "leetcode_number": 378,
+    "title": "Kth Smallest Element in a Sorted Matrix",
+    "slug": "kth-smallest-element-in-a-sorted-matrix",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #378 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Matrix Median"
+    ],
+    "similar_concept": "Matrix Median",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 120,
+    "leetcode_number": 540,
+    "title": "Single Element in a Sorted Array",
+    "slug": "single-element-in-a-sorted-array",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #540 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Single element in sorted array"
+    ],
+    "similar_concept": "Single element in sorted array",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 121,
+    "leetcode_number": 702,
+    "title": "Search in a Sorted Array of Unknown Size",
+    "slug": "search-in-a-sorted-array-of-unknown-size",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #702 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Search X in sorted array"
+    ],
+    "similar_concept": "Search X in sorted array",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 122,
+    "leetcode_number": 875,
+    "title": "Koko Eating Bananas",
+    "slug": "koko-eating-bananas",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #875 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Binary Search on Answer Range"
+    ],
+    "similar_concept": "Binary Search on Answer Range",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 123,
+    "leetcode_number": 1011,
+    "title": "Capacity To Ship Packages Within D Days",
+    "slug": "capacity-to-ship-packages-within-d-days",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1011 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Binary Search Pattern"
+    ],
+    "similar_concept": "Binary Search Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 124,
+    "leetcode_number": 1283,
+    "title": "Find the Smallest Divisor Given a Threshold",
+    "slug": "find-the-smallest-divisor-given-a-threshold",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1283 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Find the smallest divisor"
+    ],
+    "similar_concept": "Find the smallest divisor",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 125,
+    "leetcode_number": 1482,
+    "title": "Minimum Number of Days to Make m Bouquets",
+    "slug": "minimum-number-of-days-to-make-m-bouquets",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1482 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Minimum days to make M bouquets"
+    ],
+    "similar_concept": "Minimum days to make M bouquets",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 126,
+    "leetcode_number": 1539,
+    "title": "Kth Missing Positive Number",
+    "slug": "kth-missing-positive-number",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1539 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Binary Search Pattern"
+    ],
+    "similar_concept": "Binary Search Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 127,
+    "leetcode_number": 1552,
+    "title": "Magnetic Force Between Two Balls",
+    "slug": "magnetic-force-between-two-balls",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1552 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Aggressive Cows"
+    ],
+    "similar_concept": "Aggressive Cows",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 128,
+    "leetcode_number": 4,
+    "title": "Median of Two Sorted Arrays",
+    "slug": "median-of-two-sorted-arrays",
+    "difficulty": "Hard",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Hard Level"
+    ],
+    "source": "both",
+    "description": "Standard Hard LeetCode #4 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Median of 2 sorted arrays"
+    ],
+    "similar_concept": "Median of 2 sorted arrays",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 129,
+    "leetcode_number": 410,
+    "title": "Split Array Largest Sum",
+    "slug": "split-array-largest-sum",
+    "difficulty": "Hard",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #410 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Painter's Partition"
+    ],
+    "similar_concept": "Painter's Partition",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 130,
+    "leetcode_number": 774,
+    "title": "Minimize Max Distance to Gas Station",
+    "slug": "minimize-max-distance-to-gas-station",
+    "difficulty": "Hard",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #774 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Binary Search Pattern"
+    ],
+    "similar_concept": "Binary Search Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 131,
+    "leetcode_number": 1901,
+    "title": "Find a Peak Element II",
+    "slug": "find-a-peak-element-ii",
+    "difficulty": "Hard",
+    "topics": [
+      "Binary Search"
+    ],
+    "subtopics": [
+      "Binary Search Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #1901 problem focusing on Binary Search.",
+    "similar_problems": [
+      "Find Peak Element-II"
+    ],
+    "similar_concept": "Find Peak Element-II",
+    "prerequisites": [
+      "Arrays",
+      "Two Pointers"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 10
+  },
+  {
+    "id": 132,
+    "leetcode_number": 17,
+    "title": "Letter Combinations of a Phone Number",
+    "slug": "letter-combinations-of-a-phone-number",
+    "difficulty": "Medium",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #17 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Recursion & Backtracking Pattern"
+    ],
+    "similar_concept": "Recursion & Backtracking Pattern",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 133,
+    "leetcode_number": 22,
+    "title": "Generate Parentheses",
+    "slug": "generate-parentheses",
+    "difficulty": "Medium",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #22 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Recursion & Backtracking Pattern"
+    ],
+    "similar_concept": "Recursion & Backtracking Pattern",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 134,
+    "leetcode_number": 39,
+    "title": "Combination Sum",
+    "slug": "combination-sum",
+    "difficulty": "Medium",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #39 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "subsequence / subset generation with a target sum"
+    ],
+    "similar_concept": "subsequence / subset generation with a target sum",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 135,
+    "leetcode_number": 40,
+    "title": "Combination Sum II",
+    "slug": "combination-sum-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #40 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Recursion & Backtracking Pattern"
+    ],
+    "similar_concept": "Recursion & Backtracking Pattern",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 136,
+    "leetcode_number": 46,
+    "title": "Permutations",
+    "slug": "permutations",
+    "difficulty": "Medium",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #46 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Recursion & Backtracking Pattern"
+    ],
+    "similar_concept": "Recursion & Backtracking Pattern",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 137,
+    "leetcode_number": 47,
+    "title": "Permutations II",
+    "slug": "permutations-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #47 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Recursion & Backtracking Pattern"
+    ],
+    "similar_concept": "Recursion & Backtracking Pattern",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 138,
+    "leetcode_number": 50,
+    "title": "Pow(x",
+    "slug": "powx",
+    "difficulty": "Recursion & backtracking",
+    "topics": [
+      "n)"
+    ],
+    "subtopics": [
+      "n) Core",
+      "Recursion & backtracking Level"
+    ],
+    "source": "built_in",
+    "description": "Standard Recursion & backtracking LeetCode #50 problem focusing on n).",
+    "similar_problems": [
+      "Medium"
+    ],
+    "similar_concept": "Medium",
+    "prerequisites": [
+      "Basic Programming"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 139,
+    "leetcode_number": 77,
+    "title": "Combinations",
+    "slug": "combinations",
+    "difficulty": "Medium",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #77 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Recursion & Backtracking Pattern"
+    ],
+    "similar_concept": "Recursion & Backtracking Pattern",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 140,
+    "leetcode_number": 78,
+    "title": "Subsets",
+    "slug": "subsets",
+    "difficulty": "Medium",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #78 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Power Set"
+    ],
+    "similar_concept": "Power Set",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 141,
+    "leetcode_number": 79,
+    "title": "Word Search",
+    "slug": "word-search",
+    "difficulty": "Medium",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #79 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Backtracking Grid DFS"
+    ],
+    "similar_concept": "Backtracking Grid DFS",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 142,
+    "leetcode_number": 90,
+    "title": "Subsets II",
+    "slug": "subsets-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #90 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Power Set when duplicate elements are involved"
+    ],
+    "similar_concept": "Power Set when duplicate elements are involved",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 143,
+    "leetcode_number": 131,
+    "title": "Palindrome Partitioning",
+    "slug": "palindrome-partitioning",
+    "difficulty": "Medium",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #131 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Recursion & Backtracking Pattern"
+    ],
+    "similar_concept": "Recursion & Backtracking Pattern",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 144,
+    "leetcode_number": 1042,
+    "title": "Flower Planting With No Adjacent",
+    "slug": "flower-planting-with-no-adjacent",
+    "difficulty": "Medium",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1042 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "M Coloring Problem (graph coloring)"
+    ],
+    "similar_concept": "M Coloring Problem (graph coloring)",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 145,
+    "leetcode_number": 1219,
+    "title": "Path with Maximum Gold",
+    "slug": "path-with-maximum-gold",
+    "difficulty": "Medium",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1219 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Rat in a Maze (grid backtracking)"
+    ],
+    "similar_concept": "Rat in a Maze (grid backtracking)",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 146,
+    "leetcode_number": 1922,
+    "title": "Count Good Numbers",
+    "slug": "count-good-numbers",
+    "difficulty": "Medium",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1922 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Recursion & Backtracking Pattern"
+    ],
+    "similar_concept": "Recursion & Backtracking Pattern",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 147,
+    "leetcode_number": 3211,
+    "title": "Generate Binary Strings Without Adjacent Zeros",
+    "slug": "generate-binary-strings-without-adjacent-zeros",
+    "difficulty": "Medium",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #3211 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Very similar to Generate Binary Strings Without Consecutive 1s"
+    ],
+    "similar_concept": "Very similar to Generate Binary Strings Without Consecutive 1s",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 148,
+    "leetcode_number": 37,
+    "title": "Sudoku Solver",
+    "slug": "sudoku-solver",
+    "difficulty": "Hard",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #37 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Recursion & Backtracking Pattern"
+    ],
+    "similar_concept": "Recursion & Backtracking Pattern",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 149,
+    "leetcode_number": 51,
+    "title": "N-Queens",
+    "slug": "n-queens",
+    "difficulty": "Hard",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #51 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "N Queen"
+    ],
+    "similar_concept": "N Queen",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 150,
+    "leetcode_number": 52,
+    "title": "N-Queens II",
+    "slug": "n-queens-ii",
+    "difficulty": "Hard",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Hard Level"
+    ],
+    "source": "built_in",
+    "description": "Standard Hard LeetCode #52 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "N Queen"
+    ],
+    "similar_concept": "N Queen",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 55,
+    "note": "but counts solutions",
+    "suggested_day": 11
+  },
+  {
+    "id": 151,
+    "leetcode_number": 282,
+    "title": "Expression Add Operators",
+    "slug": "expression-add-operators",
+    "difficulty": "Hard",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #282 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Recursion & Backtracking Pattern"
+    ],
+    "similar_concept": "Recursion & Backtracking Pattern",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 152,
+    "leetcode_number": 301,
+    "title": "Remove Invalid Parentheses",
+    "slug": "remove-invalid-parentheses",
+    "difficulty": "Hard",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Hard Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Hard LeetCode #301 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Recursion & Backtracking Pattern"
+    ],
+    "similar_concept": "Recursion & Backtracking Pattern",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 153,
+    "leetcode_number": 980,
+    "title": "Unique Paths III",
+    "slug": "unique-paths-iii",
+    "difficulty": "Hard",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #980 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Rat in a Maze with backtracking"
+    ],
+    "similar_concept": "Rat in a Maze with backtracking",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 154,
+    "leetcode_number": 1274,
+    "title": "Number of Ships in a Rectangle",
+    "slug": "number-of-ships-in-a-rectangle",
+    "difficulty": "Hard",
+    "topics": [
+      "Recursion & Backtracking"
+    ],
+    "subtopics": [
+      "Recursion & Backtracking Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #1274 problem focusing on Recursion & Backtracking.",
+    "similar_problems": [
+      "Recursion & Backtracking Pattern"
+    ],
+    "similar_concept": "Recursion & Backtracking Pattern",
+    "prerequisites": [
+      "Stack"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 11
+  },
+  {
+    "id": 155,
+    "leetcode_number": 455,
+    "title": "Assign Cookies",
+    "slug": "assign-cookies",
+    "difficulty": "Easy",
+    "topics": [
+      "Greedy"
+    ],
+    "subtopics": [
+      "Greedy Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #455 problem focusing on Greedy.",
+    "similar_problems": [
+      "Greedy Pattern"
+    ],
+    "similar_concept": "Greedy Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Sorting"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 12
+  },
+  {
+    "id": 156,
+    "leetcode_number": 860,
+    "title": "Lemonade Change",
+    "slug": "lemonade-change",
+    "difficulty": "Easy",
+    "topics": [
+      "Greedy"
+    ],
+    "subtopics": [
+      "Greedy Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #860 problem focusing on Greedy.",
+    "similar_problems": [
+      "Greedy Pattern"
+    ],
+    "similar_concept": "Greedy Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Sorting"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 12
+  },
+  {
+    "id": 157,
+    "leetcode_number": 1710,
+    "title": "Maximum Units on a Truck",
+    "slug": "maximum-units-on-a-truck",
+    "difficulty": "Easy",
+    "topics": [
+      "Greedy"
+    ],
+    "subtopics": [
+      "Greedy Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #1710 problem focusing on Greedy.",
+    "similar_problems": [
+      "Fractional Knapsack (greedy by value/weight)"
+    ],
+    "similar_concept": "Fractional Knapsack (greedy by value/weight)",
+    "prerequisites": [
+      "Arrays",
+      "Sorting"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 12
+  },
+  {
+    "id": 158,
+    "leetcode_number": 45,
+    "title": "Jump Game II",
+    "slug": "jump-game-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Greedy"
+    ],
+    "subtopics": [
+      "Greedy Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #45 problem focusing on Greedy.",
+    "similar_problems": [
+      "BFS / Greedy Step Count"
+    ],
+    "similar_concept": "BFS / Greedy Step Count",
+    "prerequisites": [
+      "Arrays",
+      "Sorting"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 12
+  },
+  {
+    "id": 159,
+    "leetcode_number": 55,
+    "title": "Jump Game",
+    "slug": "jump-game",
+    "difficulty": "Medium",
+    "topics": [
+      "Greedy"
+    ],
+    "subtopics": [
+      "Greedy Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #55 problem focusing on Greedy.",
+    "similar_problems": [
+      "Jump Game I"
+    ],
+    "similar_concept": "Jump Game I",
+    "prerequisites": [
+      "Arrays",
+      "Sorting"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 12
+  },
+  {
+    "id": 160,
+    "leetcode_number": 56,
+    "title": "Merge Intervals",
+    "slug": "merge-intervals",
+    "difficulty": "Medium",
+    "topics": [
+      "Greedy"
+    ],
+    "subtopics": [
+      "Greedy Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #56 problem focusing on Greedy.",
+    "similar_problems": [
+      "Sorting + Interval Merging"
+    ],
+    "similar_concept": "Sorting + Interval Merging",
+    "prerequisites": [
+      "Arrays",
+      "Sorting"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 12
+  },
+  {
+    "id": 161,
+    "leetcode_number": 57,
+    "title": "Insert Interval",
+    "slug": "insert-interval",
+    "difficulty": "Medium",
+    "topics": [
+      "Greedy"
+    ],
+    "subtopics": [
+      "Greedy Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #57 problem focusing on Greedy.",
+    "similar_problems": [
+      "Greedy Pattern"
+    ],
+    "similar_concept": "Greedy Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Sorting"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 12
+  },
+  {
+    "id": 162,
+    "leetcode_number": 134,
+    "title": "Gas Station",
+    "slug": "gas-station",
+    "difficulty": "Medium",
+    "topics": [
+      "Greedy"
+    ],
+    "subtopics": [
+      "Greedy Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #134 problem focusing on Greedy.",
+    "similar_problems": [
+      "Greedy Pattern"
+    ],
+    "similar_concept": "Greedy Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Sorting"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 12
+  },
+  {
+    "id": 163,
+    "leetcode_number": 253,
+    "title": "Meeting Rooms II",
+    "slug": "meeting-rooms-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Greedy"
+    ],
+    "subtopics": [
+      "Greedy Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #253 problem focusing on Greedy.",
+    "similar_problems": [
+      "Minimum number of platforms required for a railway"
+    ],
+    "similar_concept": "Minimum number of platforms required for a railway",
+    "prerequisites": [
+      "Arrays",
+      "Sorting"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 12
+  },
+  {
+    "id": 164,
+    "leetcode_number": 406,
+    "title": "Queue Reconstruction by Height",
+    "slug": "queue-reconstruction-by-height",
+    "difficulty": "Medium",
+    "topics": [
+      "Greedy"
+    ],
+    "subtopics": [
+      "Greedy Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #406 problem focusing on Greedy.",
+    "similar_problems": [
+      "Greedy Pattern"
+    ],
+    "similar_concept": "Greedy Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Sorting"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 12
+  },
+  {
+    "id": 165,
+    "leetcode_number": 435,
+    "title": "Non-overlapping Intervals",
+    "slug": "non-overlapping-intervals",
+    "difficulty": "Medium",
+    "topics": [
+      "Greedy"
+    ],
+    "subtopics": [
+      "Greedy Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #435 problem focusing on Greedy.",
+    "similar_problems": [
+      "Greedy Pattern"
+    ],
+    "similar_concept": "Greedy Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Sorting"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 12
+  },
+  {
+    "id": 166,
+    "leetcode_number": 452,
+    "title": "Minimum Number of Arrows to Burst Balloons",
+    "slug": "minimum-number-of-arrows-to-burst-balloons",
+    "difficulty": "Medium",
+    "topics": [
+      "Greedy"
+    ],
+    "subtopics": [
+      "Greedy Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #452 problem focusing on Greedy.",
+    "similar_problems": [
+      "Similar interval-greedy technique"
+    ],
+    "similar_concept": "Similar interval-greedy technique",
+    "prerequisites": [
+      "Arrays",
+      "Sorting"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 12
+  },
+  {
+    "id": 167,
+    "leetcode_number": 621,
+    "title": "Task Scheduler",
+    "slug": "task-scheduler",
+    "difficulty": "Medium",
+    "topics": [
+      "Greedy"
+    ],
+    "subtopics": [
+      "Greedy Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #621 problem focusing on Greedy.",
+    "similar_problems": [
+      "Greedy Pattern"
+    ],
+    "similar_concept": "Greedy Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Sorting"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 12
+  },
+  {
+    "id": 168,
+    "leetcode_number": 763,
+    "title": "Partition Labels",
+    "slug": "partition-labels",
+    "difficulty": "Medium",
+    "topics": [
+      "Greedy"
+    ],
+    "subtopics": [
+      "Greedy Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #763 problem focusing on Greedy.",
+    "similar_problems": [
+      "Greedy Pattern"
+    ],
+    "similar_concept": "Greedy Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Sorting"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 12
+  },
+  {
+    "id": 169,
+    "leetcode_number": 1834,
+    "title": "Single-Threaded CPU",
+    "slug": "single-threaded-cpu",
+    "difficulty": "Medium",
+    "topics": [
+      "Greedy"
+    ],
+    "subtopics": [
+      "Greedy Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1834 problem focusing on Greedy.",
+    "similar_problems": [
+      "Shortest Job First"
+    ],
+    "similar_concept": "Shortest Job First",
+    "prerequisites": [
+      "Arrays",
+      "Sorting"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 12
+  },
+  {
+    "id": 170,
+    "leetcode_number": 135,
+    "title": "Candy",
+    "slug": "candy",
+    "difficulty": "Hard",
+    "topics": [
+      "Greedy"
+    ],
+    "subtopics": [
+      "Greedy Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #135 problem focusing on Greedy.",
+    "similar_problems": [
+      "Greedy Pattern"
+    ],
+    "similar_concept": "Greedy Pattern",
+    "prerequisites": [
+      "Arrays",
+      "Sorting"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 12
+  },
+  {
+    "id": 171,
+    "leetcode_number": 94,
+    "title": "Binary Tree Inorder Traversal",
+    "slug": "binary-tree-inorder-traversal",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Easy LeetCode #94 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 172,
+    "leetcode_number": 100,
+    "title": "Same Tree",
+    "slug": "same-tree",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #100 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 173,
+    "leetcode_number": 101,
+    "title": "Symmetric Tree",
+    "slug": "symmetric-tree",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Easy LeetCode #101 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 174,
+    "leetcode_number": 104,
+    "title": "Maximum Depth of Binary Tree",
+    "slug": "maximum-depth-of-binary-tree",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Easy LeetCode #104 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 175,
+    "leetcode_number": 108,
+    "title": "Convert Sorted Array to Binary Search Tree",
+    "slug": "convert-sorted-array-to-binary-search-tree",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #108 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 176,
+    "leetcode_number": 110,
+    "title": "Balanced Binary Tree",
+    "slug": "balanced-binary-tree",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #110 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 177,
+    "leetcode_number": 111,
+    "title": "Minimum Depth of Binary Tree",
+    "slug": "minimum-depth-of-binary-tree",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #111 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 178,
+    "leetcode_number": 112,
+    "title": "Path Sum",
+    "slug": "path-sum",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #112 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 179,
+    "leetcode_number": 226,
+    "title": "Invert Binary Tree",
+    "slug": "invert-binary-tree",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Easy LeetCode #226 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 180,
+    "leetcode_number": 543,
+    "title": "Diameter of Binary Tree",
+    "slug": "diameter-of-binary-tree",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Easy LeetCode #543 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 181,
+    "leetcode_number": 572,
+    "title": "Subtree of Another Tree",
+    "slug": "subtree-of-another-tree",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Easy LeetCode #572 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 182,
+    "leetcode_number": 617,
+    "title": "Merge Two Binary Trees",
+    "slug": "merge-two-binary-trees",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Easy LeetCode #617 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 183,
+    "leetcode_number": 102,
+    "title": "Binary Tree Level Order Traversal",
+    "slug": "binary-tree-level-order-traversal",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #102 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 184,
+    "leetcode_number": 103,
+    "title": "Binary Tree Zigzag Level Order Traversal",
+    "slug": "binary-tree-zigzag-level-order-traversal",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #103 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 185,
+    "leetcode_number": 105,
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #105 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 186,
+    "leetcode_number": 114,
+    "title": "Flatten Binary Tree to Linked List",
+    "slug": "flatten-binary-tree-to-linked-list",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #114 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 187,
+    "leetcode_number": 199,
+    "title": "Binary Tree Right Side View",
+    "slug": "binary-tree-right-side-view",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #199 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 188,
+    "leetcode_number": 236,
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "slug": "lowest-common-ancestor-of-a-binary-tree",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #236 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 189,
+    "leetcode_number": 437,
+    "title": "Path Sum III",
+    "slug": "path-sum-iii",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #437 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 190,
+    "leetcode_number": 124,
+    "title": "Binary Tree Maximum Path Sum",
+    "slug": "binary-tree-maximum-path-sum",
+    "difficulty": "Hard",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Hard Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Hard LeetCode #124 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 191,
+    "leetcode_number": 297,
+    "title": "Serialize and Deserialize Binary Tree",
+    "slug": "serialize-and-deserialize-binary-tree",
+    "difficulty": "Hard",
+    "topics": [
+      "Binary Tree"
+    ],
+    "subtopics": [
+      "Binary Tree Core",
+      "Hard Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Hard LeetCode #297 problem focusing on Binary Tree.",
+    "similar_problems": [
+      "Binary Tree Pattern"
+    ],
+    "similar_concept": "Binary Tree Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 13
+  },
+  {
+    "id": 192,
+    "leetcode_number": 270,
+    "title": "Closest Binary Search Tree Value",
+    "slug": "closest-binary-search-tree-value",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Search Tree",
+      "Tree"
+    ],
+    "subtopics": [
+      "Binary Search Tree Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #270 problem focusing on Binary Search Tree.",
+    "similar_problems": [
+      "Floor/Ceil in BST"
+    ],
+    "similar_concept": "Floor/Ceil in BST",
+    "prerequisites": [
+      "Binary Tree",
+      "Binary Search"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 14
+  },
+  {
+    "id": 193,
+    "leetcode_number": 653,
+    "title": "Two Sum IV \u2014 Input is a BST",
+    "slug": "two-sum-iv-input-is-a-bst",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Search Tree",
+      "Tree"
+    ],
+    "subtopics": [
+      "Binary Search Tree Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #653 problem focusing on Binary Search Tree.",
+    "similar_problems": [
+      "Two Sum in BST"
+    ],
+    "similar_concept": "Two Sum in BST",
+    "prerequisites": [
+      "Binary Tree",
+      "Binary Search"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 14
+  },
+  {
+    "id": 194,
+    "leetcode_number": 700,
+    "title": "Search in a Binary Search Tree",
+    "slug": "search-in-a-binary-search-tree",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Search Tree",
+      "Tree"
+    ],
+    "subtopics": [
+      "Binary Search Tree Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #700 problem focusing on Binary Search Tree.",
+    "similar_problems": [
+      "Search in BST"
+    ],
+    "similar_concept": "Search in BST",
+    "prerequisites": [
+      "Binary Tree",
+      "Binary Search"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 14
+  },
+  {
+    "id": 195,
+    "leetcode_number": 783,
+    "title": "Minimum Distance Between BST Nodes",
+    "slug": "minimum-distance-between-bst-nodes",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Search Tree",
+      "Tree"
+    ],
+    "subtopics": [
+      "Binary Search Tree Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #783 problem focusing on Binary Search Tree.",
+    "similar_problems": [
+      "finding minimum values in BST"
+    ],
+    "similar_concept": "finding minimum values in BST",
+    "prerequisites": [
+      "Binary Tree",
+      "Binary Search"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 14
+  },
+  {
+    "id": 196,
+    "leetcode_number": 938,
+    "title": "Range Sum of BST",
+    "slug": "range-sum-of-bst",
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Search Tree",
+      "Tree"
+    ],
+    "subtopics": [
+      "Binary Search Tree Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #938 problem focusing on Binary Search Tree.",
+    "similar_problems": [
+      "BST traversal / range searching"
+    ],
+    "similar_concept": "BST traversal / range searching",
+    "prerequisites": [
+      "Binary Tree",
+      "Binary Search"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 14
+  },
+  {
+    "id": 197,
+    "leetcode_number": 98,
+    "title": "Validate Binary Search Tree",
+    "slug": "validate-binary-search-tree",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search Tree",
+      "Tree"
+    ],
+    "subtopics": [
+      "Binary Search Tree Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #98 problem focusing on Binary Search Tree.",
+    "similar_problems": [
+      "Check if a tree is a BST"
+    ],
+    "similar_concept": "Check if a tree is a BST",
+    "prerequisites": [
+      "Binary Tree",
+      "Binary Search"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 14
+  },
+  {
+    "id": 198,
+    "leetcode_number": 99,
+    "title": "Recover Binary Search Tree",
+    "slug": "recover-binary-search-tree",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search Tree",
+      "Tree"
+    ],
+    "subtopics": [
+      "Binary Search Tree Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #99 problem focusing on Binary Search Tree.",
+    "similar_problems": [
+      "Correct BST with two nodes swapped"
+    ],
+    "similar_concept": "Correct BST with two nodes swapped",
+    "prerequisites": [
+      "Binary Tree",
+      "Binary Search"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 14
+  },
+  {
+    "id": 199,
+    "leetcode_number": 173,
+    "title": "Binary Search Tree Iterator",
+    "slug": "binary-search-tree-iterator",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search Tree",
+      "Tree"
+    ],
+    "subtopics": [
+      "Binary Search Tree Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #173 problem focusing on Binary Search Tree.",
+    "similar_problems": [
+      "BST Iterator"
+    ],
+    "similar_concept": "BST Iterator",
+    "prerequisites": [
+      "Binary Tree",
+      "Binary Search"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 14
+  },
+  {
+    "id": 200,
+    "leetcode_number": 230,
+    "title": "Kth Smallest Element in a BST",
+    "slug": "kth-smallest-element-in-a-bst",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search Tree",
+      "Tree"
+    ],
+    "subtopics": [
+      "Binary Search Tree Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #230 problem focusing on Binary Search Tree.",
+    "similar_problems": [
+      "Kth Smallest element in BST"
+    ],
+    "similar_concept": "Kth Smallest element in BST",
+    "prerequisites": [
+      "Binary Tree",
+      "Binary Search"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 14
+  },
+  {
+    "id": 201,
+    "leetcode_number": 235,
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search Tree",
+      "Tree"
+    ],
+    "subtopics": [
+      "Binary Search Tree Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #235 problem focusing on Binary Search Tree.",
+    "similar_problems": [
+      "LCA in BST"
+    ],
+    "similar_concept": "LCA in BST",
+    "prerequisites": [
+      "Binary Tree",
+      "Binary Search"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 14
+  },
+  {
+    "id": 202,
+    "leetcode_number": 285,
+    "title": "Inorder Successor in BST",
+    "slug": "inorder-successor-in-bst",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search Tree",
+      "Tree"
+    ],
+    "subtopics": [
+      "Binary Search Tree Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #285 problem focusing on Binary Search Tree.",
+    "similar_problems": [
+      "Binary Search Tree Pattern"
+    ],
+    "similar_concept": "Binary Search Tree Pattern",
+    "prerequisites": [
+      "Binary Tree",
+      "Binary Search"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 14
+  },
+  {
+    "id": 203,
+    "leetcode_number": 333,
+    "title": "Largest BST Subtree",
+    "slug": "largest-bst-subtree",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search Tree",
+      "Tree"
+    ],
+    "subtopics": [
+      "Binary Search Tree Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #333 problem focusing on Binary Search Tree.",
+    "similar_problems": [
+      "Largest BST in Binary Tree"
+    ],
+    "similar_concept": "Largest BST in Binary Tree",
+    "prerequisites": [
+      "Binary Tree",
+      "Binary Search"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 14
+  },
+  {
+    "id": 204,
+    "leetcode_number": 450,
+    "title": "Delete Node in a BST",
+    "slug": "delete-node-in-a-bst",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search Tree",
+      "Tree"
+    ],
+    "subtopics": [
+      "Binary Search Tree Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #450 problem focusing on Binary Search Tree.",
+    "similar_problems": [
+      "Delete a node in BST"
+    ],
+    "similar_concept": "Delete a node in BST",
+    "prerequisites": [
+      "Binary Tree",
+      "Binary Search"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 14
+  },
+  {
+    "id": 205,
+    "leetcode_number": 538,
+    "title": "Convert BST to Greater Tree",
+    "slug": "convert-bst-to-greater-tree",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search Tree",
+      "Tree"
+    ],
+    "subtopics": [
+      "Binary Search Tree Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #538 problem focusing on Binary Search Tree.",
+    "similar_problems": [
+      "Binary Search Tree Pattern"
+    ],
+    "similar_concept": "Binary Search Tree Pattern",
+    "prerequisites": [
+      "Binary Tree",
+      "Binary Search"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 14
+  },
+  {
+    "id": 206,
+    "leetcode_number": 701,
+    "title": "Insert into a Binary Search Tree",
+    "slug": "insert-into-a-binary-search-tree",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search Tree",
+      "Tree"
+    ],
+    "subtopics": [
+      "Binary Search Tree Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #701 problem focusing on Binary Search Tree.",
+    "similar_problems": [
+      "Insert a given node in BST"
+    ],
+    "similar_concept": "Insert a given node in BST",
+    "prerequisites": [
+      "Binary Tree",
+      "Binary Search"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 14
+  },
+  {
+    "id": 207,
+    "leetcode_number": 1008,
+    "title": "Construct Binary Search Tree from Preorder Traversal",
+    "slug": "construct-binary-search-tree-from-preorder-traversal",
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search Tree",
+      "Tree"
+    ],
+    "subtopics": [
+      "Binary Search Tree Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1008 problem focusing on Binary Search Tree.",
+    "similar_problems": [
+      "Construct BST from preorder"
+    ],
+    "similar_concept": "Construct BST from preorder",
+    "prerequisites": [
+      "Binary Tree",
+      "Binary Search"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 14
+  },
+  {
+    "id": 208,
+    "leetcode_number": 272,
+    "title": "Closest Binary Search Tree Value II",
+    "slug": "closest-binary-search-tree-value-ii",
+    "difficulty": "Hard",
+    "topics": [
+      "Binary Search Tree",
+      "Tree"
+    ],
+    "subtopics": [
+      "Binary Search Tree Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #272 problem focusing on Binary Search Tree.",
+    "similar_problems": [
+      "Advanced BST searching / closest values"
+    ],
+    "similar_concept": "Advanced BST searching / closest values",
+    "prerequisites": [
+      "Binary Tree",
+      "Binary Search"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 14
+  },
+  {
+    "id": 209,
+    "leetcode_number": 703,
+    "title": "Kth Largest Element in a Stream",
+    "slug": "kth-largest-element-in-a-stream",
+    "difficulty": "Easy",
+    "topics": [
+      "Heap"
+    ],
+    "subtopics": [
+      "Heap Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #703 problem focusing on Heap.",
+    "similar_problems": [
+      "Heap Pattern"
+    ],
+    "similar_concept": "Heap Pattern",
+    "prerequisites": [
+      "Binary Tree",
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 15
+  },
+  {
+    "id": 210,
+    "leetcode_number": 1046,
+    "title": "Last Stone Weight",
+    "slug": "last-stone-weight",
+    "difficulty": "Easy",
+    "topics": [
+      "Heap"
+    ],
+    "subtopics": [
+      "Heap Core",
+      "Easy Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Easy LeetCode #1046 problem focusing on Heap.",
+    "similar_problems": [
+      "Max Heap Simulation"
+    ],
+    "similar_concept": "Max Heap Simulation",
+    "prerequisites": [
+      "Binary Tree",
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 15
+  },
+  {
+    "id": 211,
+    "leetcode_number": 215,
+    "title": "Kth Largest Element in an Array",
+    "slug": "kth-largest-element-in-an-array",
+    "difficulty": "Medium",
+    "topics": [
+      "Heap"
+    ],
+    "subtopics": [
+      "Heap Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #215 problem focusing on Heap.",
+    "similar_problems": [
+      "Heap Pattern"
+    ],
+    "similar_concept": "Heap Pattern",
+    "prerequisites": [
+      "Binary Tree",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 15
+  },
+  {
+    "id": 212,
+    "leetcode_number": 347,
+    "title": "Top K Frequent Elements",
+    "slug": "top-k-frequent-elements",
+    "difficulty": "Medium",
+    "topics": [
+      "Heap"
+    ],
+    "subtopics": [
+      "Heap Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #347 problem focusing on Heap.",
+    "similar_problems": [
+      "Heap Pattern"
+    ],
+    "similar_concept": "Heap Pattern",
+    "prerequisites": [
+      "Binary Tree",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 15
+  },
+  {
+    "id": 213,
+    "leetcode_number": 973,
+    "title": "K Closest Points to Origin",
+    "slug": "k-closest-points-to-origin",
+    "difficulty": "Medium",
+    "topics": [
+      "Heap"
+    ],
+    "subtopics": [
+      "Heap Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #973 problem focusing on Heap.",
+    "similar_problems": [
+      "Heap Pattern"
+    ],
+    "similar_concept": "Heap Pattern",
+    "prerequisites": [
+      "Binary Tree",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 15
+  },
+  {
+    "id": 214,
+    "leetcode_number": 295,
+    "title": "Find Median from Data Stream",
+    "slug": "find-median-from-data-stream",
+    "difficulty": "Hard",
+    "topics": [
+      "Heap"
+    ],
+    "subtopics": [
+      "Heap Core",
+      "Hard Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Hard LeetCode #295 problem focusing on Heap.",
+    "similar_problems": [
+      "Heap Pattern"
+    ],
+    "similar_concept": "Heap Pattern",
+    "prerequisites": [
+      "Binary Tree",
+      "Arrays"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 15
+  },
+  {
+    "id": 215,
+    "leetcode_number": 208,
+    "title": "Implement Trie (Prefix Tree)",
+    "slug": "implement-trie-prefix-tree",
+    "difficulty": "Medium",
+    "topics": [
+      "Trie"
+    ],
+    "subtopics": [
+      "Trie Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #208 problem focusing on Trie.",
+    "similar_problems": [
+      "Trie Pattern"
+    ],
+    "similar_concept": "Trie Pattern",
+    "prerequisites": [
+      "Strings",
+      "Binary Tree"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 16
+  },
+  {
+    "id": 216,
+    "leetcode_number": 211,
+    "title": "Design Add and Search Words Data Structure",
+    "slug": "design-add-and-search-words-data-structure",
+    "difficulty": "Medium",
+    "topics": [
+      "Trie"
+    ],
+    "subtopics": [
+      "Trie Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #211 problem focusing on Trie.",
+    "similar_problems": [
+      "Trie Pattern"
+    ],
+    "similar_concept": "Trie Pattern",
+    "prerequisites": [
+      "Strings",
+      "Binary Tree"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 16
+  },
+  {
+    "id": 217,
+    "leetcode_number": 212,
+    "title": "Word Search II",
+    "slug": "word-search-ii",
+    "difficulty": "Hard",
+    "topics": [
+      "Trie"
+    ],
+    "subtopics": [
+      "Trie Core",
+      "Hard Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Hard LeetCode #212 problem focusing on Trie.",
+    "similar_problems": [
+      "Trie Pattern"
+    ],
+    "similar_concept": "Trie Pattern",
+    "prerequisites": [
+      "Strings",
+      "Binary Tree"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 16
+  },
+  {
+    "id": 218,
+    "leetcode_number": 733,
+    "title": "Flood Fill",
+    "slug": "flood-fill",
+    "difficulty": "Easy",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #733 problem focusing on Graphs.",
+    "similar_problems": [
+      "Flood Fill Algorithm"
+    ],
+    "similar_concept": "Flood Fill Algorithm",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 219,
+    "leetcode_number": 997,
+    "title": "Find the Town Judge",
+    "slug": "find-the-town-judge",
+    "difficulty": "Easy",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #997 problem focusing on Graphs.",
+    "similar_problems": [
+      "Similar graph degree / adjacency concept"
+    ],
+    "similar_concept": "Similar graph degree / adjacency concept",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 220,
+    "leetcode_number": 1971,
+    "title": "Find if Path Exists in Graph",
+    "slug": "find-if-path-exists-in-graph",
+    "difficulty": "Easy",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Easy Level"
+    ],
+    "source": "docs",
+    "description": "Standard Easy LeetCode #1971 problem focusing on Graphs.",
+    "similar_problems": [
+      "Basic graph traversal / connected components"
+    ],
+    "similar_concept": "Basic graph traversal / connected components",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 221,
+    "leetcode_number": 130,
+    "title": "Surrounded Regions",
+    "slug": "surrounded-regions",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #130 problem focusing on Graphs.",
+    "similar_problems": [
+      "Graphs Pattern"
+    ],
+    "similar_concept": "Graphs Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 222,
+    "leetcode_number": 133,
+    "title": "Clone Graph",
+    "slug": "clone-graph",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #133 problem focusing on Graphs.",
+    "similar_problems": [
+      "Graphs Pattern"
+    ],
+    "similar_concept": "Graphs Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 223,
+    "leetcode_number": 200,
+    "title": "Number of Islands",
+    "slug": "number-of-islands",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #200 problem focusing on Graphs.",
+    "similar_problems": [
+      "Connected Components BFS/DFS"
+    ],
+    "similar_concept": "Connected Components BFS/DFS",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 224,
+    "leetcode_number": 207,
+    "title": "Course Schedule",
+    "slug": "course-schedule",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #207 problem focusing on Graphs.",
+    "similar_problems": [
+      "Topological Sort / Detect cycle in directed graph"
+    ],
+    "similar_concept": "Topological Sort / Detect cycle in directed graph",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 225,
+    "leetcode_number": 210,
+    "title": "Course Schedule II",
+    "slug": "course-schedule-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #210 problem focusing on Graphs.",
+    "similar_problems": [
+      "Kahn's Algorithm / Topological Sort"
+    ],
+    "similar_concept": "Kahn's Algorithm / Topological Sort",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 226,
+    "leetcode_number": 417,
+    "title": "Pacific Atlantic Water Flow",
+    "slug": "pacific-atlantic-water-flow",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #417 problem focusing on Graphs.",
+    "similar_problems": [
+      "Graphs Pattern"
+    ],
+    "similar_concept": "Graphs Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 227,
+    "leetcode_number": 542,
+    "title": "01 Matrix",
+    "slug": "01-matrix",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #542 problem focusing on Graphs.",
+    "similar_problems": [
+      "Distance of nearest cell having 1"
+    ],
+    "similar_concept": "Distance of nearest cell having 1",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 228,
+    "leetcode_number": 547,
+    "title": "Number of Provinces",
+    "slug": "number-of-provinces",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #547 problem focusing on Graphs.",
+    "similar_problems": [
+      "Graphs Pattern"
+    ],
+    "similar_concept": "Graphs Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 229,
+    "leetcode_number": 684,
+    "title": "Redundant Connection",
+    "slug": "redundant-connection",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #684 problem focusing on Graphs.",
+    "similar_problems": [
+      "detecting a cycle in an undirected graph"
+    ],
+    "similar_concept": "detecting a cycle in an undirected graph",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 230,
+    "leetcode_number": 694,
+    "title": "Number of Distinct Islands",
+    "slug": "number-of-distinct-islands",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #694 problem focusing on Graphs.",
+    "similar_problems": [
+      "Graphs Pattern"
+    ],
+    "similar_concept": "Graphs Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 231,
+    "leetcode_number": 721,
+    "title": "Accounts Merge",
+    "slug": "accounts-merge",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #721 problem focusing on Graphs.",
+    "similar_problems": [
+      "Accounts Merge / DSU"
+    ],
+    "similar_concept": "Accounts Merge / DSU",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 232,
+    "leetcode_number": 743,
+    "title": "Network Delay Time",
+    "slug": "network-delay-time",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #743 problem focusing on Graphs.",
+    "similar_problems": [
+      "Dijkstra's Algorithm"
+    ],
+    "similar_concept": "Dijkstra's Algorithm",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 233,
+    "leetcode_number": 785,
+    "title": "Is Graph Bipartite?",
+    "slug": "is-graph-bipartite",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #785 problem focusing on Graphs.",
+    "similar_problems": [
+      "Bipartite Graph"
+    ],
+    "similar_concept": "Bipartite Graph",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 234,
+    "leetcode_number": 787,
+    "title": "Cheapest Flights Within K Stops",
+    "slug": "cheapest-flights-within-k-stops",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #787 problem focusing on Graphs.",
+    "similar_problems": [
+      "Cheapest flight within K stops"
+    ],
+    "similar_concept": "Cheapest flight within K stops",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 235,
+    "leetcode_number": 802,
+    "title": "Find Eventual Safe States",
+    "slug": "find-eventual-safe-states",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #802 problem focusing on Graphs.",
+    "similar_problems": [
+      "Graphs Pattern"
+    ],
+    "similar_concept": "Graphs Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 236,
+    "leetcode_number": 947,
+    "title": "Most Stones Removed with Same Row or Column",
+    "slug": "most-stones-removed-with-same-row-or-column",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #947 problem focusing on Graphs.",
+    "similar_problems": [
+      "Graphs Pattern"
+    ],
+    "similar_concept": "Graphs Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 237,
+    "leetcode_number": 994,
+    "title": "Rotting Oranges",
+    "slug": "rotting-oranges",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #994 problem focusing on Graphs.",
+    "similar_problems": [
+      "Graphs Pattern"
+    ],
+    "similar_concept": "Graphs Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 238,
+    "leetcode_number": 1020,
+    "title": "Number of Enclaves",
+    "slug": "number-of-enclaves",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1020 problem focusing on Graphs.",
+    "similar_problems": [
+      "Graphs Pattern"
+    ],
+    "similar_concept": "Graphs Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 239,
+    "leetcode_number": 1091,
+    "title": "Shortest Path in Binary Matrix",
+    "slug": "shortest-path-in-binary-matrix",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1091 problem focusing on Graphs.",
+    "similar_problems": [
+      "shortest path in an unweighted graph / binary maze"
+    ],
+    "similar_concept": "shortest path in an unweighted graph / binary maze",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 240,
+    "leetcode_number": 1319,
+    "title": "Number of Operations to Make Network Connected",
+    "slug": "number-of-operations-to-make-network-connected",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1319 problem focusing on Graphs.",
+    "similar_problems": [
+      "Graphs Pattern"
+    ],
+    "similar_concept": "Graphs Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 241,
+    "leetcode_number": 1334,
+    "title": "Find the City With the Smallest Number of Neighbors at a Threshold",
+    "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1334 problem focusing on Graphs.",
+    "similar_problems": [
+      "Graphs Pattern"
+    ],
+    "similar_concept": "Graphs Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 242,
+    "leetcode_number": 1584,
+    "title": "Min Cost to Connect All Points",
+    "slug": "min-cost-to-connect-all-points",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1584 problem focusing on Graphs.",
+    "similar_problems": [
+      "Find MST weight"
+    ],
+    "similar_concept": "Find MST weight",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 243,
+    "leetcode_number": 1631,
+    "title": "Path With Minimum Effort",
+    "slug": "path-with-minimum-effort",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1631 problem focusing on Graphs.",
+    "similar_problems": [
+      "Graphs Pattern"
+    ],
+    "similar_concept": "Graphs Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 244,
+    "leetcode_number": 1976,
+    "title": "Number of Ways to Arrive at Destination",
+    "slug": "number-of-ways-to-arrive-at-destination",
+    "difficulty": "Medium",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1976 problem focusing on Graphs.",
+    "similar_problems": [
+      "Graphs Pattern"
+    ],
+    "similar_concept": "Graphs Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 245,
+    "leetcode_number": 126,
+    "title": "Word Ladder II",
+    "slug": "word-ladder-ii",
+    "difficulty": "Hard",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #126 problem focusing on Graphs.",
+    "similar_problems": [
+      "Graphs Pattern"
+    ],
+    "similar_concept": "Graphs Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 246,
+    "leetcode_number": 127,
+    "title": "Word Ladder",
+    "slug": "word-ladder",
+    "difficulty": "Hard",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #127 problem focusing on Graphs.",
+    "similar_problems": [
+      "Word Ladder I"
+    ],
+    "similar_concept": "Word Ladder I",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 247,
+    "leetcode_number": 305,
+    "title": "Number of Islands II",
+    "slug": "number-of-islands-ii",
+    "difficulty": "Hard",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #305 problem focusing on Graphs.",
+    "similar_problems": [
+      "Graphs Pattern"
+    ],
+    "similar_concept": "Graphs Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 248,
+    "leetcode_number": 778,
+    "title": "Swim in Rising Water",
+    "slug": "swim-in-rising-water",
+    "difficulty": "Hard",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #778 problem focusing on Graphs.",
+    "similar_problems": [
+      "Dijkstra / minimum-effort path"
+    ],
+    "similar_concept": "Dijkstra / minimum-effort path",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 249,
+    "leetcode_number": 827,
+    "title": "Making A Large Island",
+    "slug": "making-a-large-island",
+    "difficulty": "Hard",
+    "topics": [
+      "Graphs"
+    ],
+    "subtopics": [
+      "Graphs Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #827 problem focusing on Graphs.",
+    "similar_problems": [
+      "Advanced grid + component/DSU technique"
+    ],
+    "similar_concept": "Advanced grid + component/DSU technique",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Queue",
+      "Stack"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 17
+  },
+  {
+    "id": 250,
+    "leetcode_number": 70,
+    "title": "Climbing Stairs",
+    "slug": "climbing-stairs",
+    "difficulty": "Easy",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Easy Level"
+    ],
+    "source": "both",
+    "description": "Standard Easy LeetCode #70 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Fibonacci Dynamic Programming"
+    ],
+    "similar_concept": "Fibonacci Dynamic Programming",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 251,
+    "leetcode_number": 121,
+    "title": "Best Time to Buy and Sell Stock",
+    "slug": "best-time-to-buy-and-sell-stock",
+    "difficulty": "Easy",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Easy Level"
+    ],
+    "source": "both",
+    "description": "Standard Easy LeetCode #121 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Stock I"
+    ],
+    "similar_concept": "Stock I",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 20,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 252,
+    "leetcode_number": 62,
+    "title": "Unique Paths",
+    "slug": "unique-paths",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #62 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Grid Unique Paths"
+    ],
+    "similar_concept": "Grid Unique Paths",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 253,
+    "leetcode_number": 63,
+    "title": "Unique Paths II",
+    "slug": "unique-paths-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #63 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 254,
+    "leetcode_number": 64,
+    "title": "Minimum Path Sum",
+    "slug": "minimum-path-sum",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #64 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 255,
+    "leetcode_number": 72,
+    "title": "Edit Distance",
+    "slug": "edit-distance",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #72 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 256,
+    "leetcode_number": 91,
+    "title": "Decode Ways",
+    "slug": "decode-ways",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #91 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 257,
+    "leetcode_number": 96,
+    "title": "Unique Binary Search Trees",
+    "slug": "unique-binary-search-trees",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #96 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 258,
+    "leetcode_number": 120,
+    "title": "Triangle",
+    "slug": "triangle",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #120 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 259,
+    "leetcode_number": 122,
+    "title": "Best Time to Buy and Sell Stock II",
+    "slug": "best-time-to-buy-and-sell-stock-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #122 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Stock II"
+    ],
+    "similar_concept": "Stock II",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 260,
+    "leetcode_number": 139,
+    "title": "Word Break",
+    "slug": "word-break",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #139 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 261,
+    "leetcode_number": 152,
+    "title": "Maximum Product Subarray",
+    "slug": "maximum-product-subarray",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #152 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 262,
+    "leetcode_number": 198,
+    "title": "House Robber",
+    "slug": "house-robber",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #198 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Similar recursion idea for binary choices / subsequence selection"
+    ],
+    "similar_concept": "Similar recursion idea for binary choices / subsequence selection",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 263,
+    "leetcode_number": 213,
+    "title": "House Robber II",
+    "slug": "house-robber-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #213 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 264,
+    "leetcode_number": 221,
+    "title": "Maximal Square",
+    "slug": "maximal-square",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #221 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 265,
+    "leetcode_number": 279,
+    "title": "Perfect Squares",
+    "slug": "perfect-squares",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #279 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 266,
+    "leetcode_number": 300,
+    "title": "Longest Increasing Subsequence",
+    "slug": "longest-increasing-subsequence",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #300 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Patience Sorting / 1D DP"
+    ],
+    "similar_concept": "Patience Sorting / 1D DP",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 267,
+    "leetcode_number": 309,
+    "title": "Best Time to Buy and Sell Stock with Cooldown",
+    "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #309 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Stock with Cooldown"
+    ],
+    "similar_concept": "Stock with Cooldown",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 268,
+    "leetcode_number": 322,
+    "title": "Coin Change",
+    "slug": "coin-change",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #322 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Minimum Coins"
+    ],
+    "similar_concept": "Minimum Coins",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 269,
+    "leetcode_number": 337,
+    "title": "House Robber III",
+    "slug": "house-robber-iii",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Medium LeetCode #337 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 270,
+    "leetcode_number": 368,
+    "title": "Largest Divisible Subset",
+    "slug": "largest-divisible-subset",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #368 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 271,
+    "leetcode_number": 377,
+    "title": "Combination Sum IV",
+    "slug": "combination-sum-iv",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "leetcode_extra",
+    "description": "Standard Medium LeetCode #377 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 272,
+    "leetcode_number": 416,
+    "title": "Partition Equal Subset Sum",
+    "slug": "partition-equal-subset-sum",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #416 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "subsequence/subset sum"
+    ],
+    "similar_concept": "subsequence/subset sum",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 273,
+    "leetcode_number": 494,
+    "title": "Target Sum",
+    "slug": "target-sum",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "both",
+    "description": "Standard Medium LeetCode #494 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "subsequence with sum K"
+    ],
+    "similar_concept": "subsequence with sum K",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 274,
+    "leetcode_number": 516,
+    "title": "Longest Palindromic Subsequence",
+    "slug": "longest-palindromic-subsequence",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #516 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 275,
+    "leetcode_number": 518,
+    "title": "Coin Change II",
+    "slug": "coin-change-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #518 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 276,
+    "leetcode_number": 583,
+    "title": "Delete Operation for Two Strings",
+    "slug": "delete-operation-for-two-strings",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #583 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Minimum insertions/deletions to convert String A \u2192 B (similar)"
+    ],
+    "similar_concept": "Minimum insertions/deletions to convert String A \u2192 B (similar)",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 277,
+    "leetcode_number": 673,
+    "title": "Number of Longest Increasing Subsequence",
+    "slug": "number-of-longest-increasing-subsequence",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #673 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Number of Longest Increasing Subsequences"
+    ],
+    "similar_concept": "Number of Longest Increasing Subsequences",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 278,
+    "leetcode_number": 714,
+    "title": "Best Time to Buy and Sell Stock with Transaction Fee",
+    "slug": "best-time-to-buy-and-sell-stock-with-transaction-fee",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #714 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Stock with Transaction Fee"
+    ],
+    "similar_concept": "Stock with Transaction Fee",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 279,
+    "leetcode_number": 718,
+    "title": "Maximum Length of Repeated Subarray",
+    "slug": "maximum-length-of-repeated-subarray",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #718 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Longest Common Substring"
+    ],
+    "similar_concept": "Longest Common Substring",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 280,
+    "leetcode_number": 931,
+    "title": "Minimum Falling Path Sum",
+    "slug": "minimum-falling-path-sum",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #931 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 281,
+    "leetcode_number": 1048,
+    "title": "Longest String Chain",
+    "slug": "longest-string-chain",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1048 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 282,
+    "leetcode_number": 1143,
+    "title": "Longest Common Subsequence",
+    "slug": "longest-common-subsequence",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1143 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 283,
+    "leetcode_number": 1277,
+    "title": "Count Square Submatrices with All Ones",
+    "slug": "count-square-submatrices-with-all-ones",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Medium Level"
+    ],
+    "source": "docs",
+    "description": "Standard Medium LeetCode #1277 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 35,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 284,
+    "leetcode_number": 10,
+    "title": "Regular Expression Matching",
+    "slug": "regular-expression-matching",
+    "difficulty": "Hard",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Hard Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Hard LeetCode #10 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 285,
+    "leetcode_number": 32,
+    "title": "Longest Valid Parentheses",
+    "slug": "longest-valid-parentheses",
+    "difficulty": "Hard",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Hard Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Hard LeetCode #32 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 286,
+    "leetcode_number": 44,
+    "title": "Wildcard Matching",
+    "slug": "wildcard-matching",
+    "difficulty": "Hard",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #44 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 287,
+    "leetcode_number": 115,
+    "title": "Distinct Subsequences",
+    "slug": "distinct-subsequences",
+    "difficulty": "Hard",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #115 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 288,
+    "leetcode_number": 123,
+    "title": "Best Time to Buy and Sell Stock III",
+    "slug": "best-time-to-buy-and-sell-stock-iii",
+    "difficulty": "Hard",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #123 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Stock III"
+    ],
+    "similar_concept": "Stock III",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 289,
+    "leetcode_number": 188,
+    "title": "Best Time to Buy and Sell Stock IV",
+    "slug": "best-time-to-buy-and-sell-stock-iv",
+    "difficulty": "Hard",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #188 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Stock IV"
+    ],
+    "similar_concept": "Stock IV",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 290,
+    "leetcode_number": 312,
+    "title": "Burst Balloons",
+    "slug": "burst-balloons",
+    "difficulty": "Hard",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Hard Level"
+    ],
+    "source": "leetcode_top100",
+    "description": "Standard Hard LeetCode #312 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 291,
+    "leetcode_number": 403,
+    "title": "Frog Jump",
+    "slug": "frog-jump",
+    "difficulty": "Hard",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #403 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 292,
+    "leetcode_number": 1092,
+    "title": "Shortest Common Supersequence",
+    "slug": "shortest-common-supersequence",
+    "difficulty": "Hard",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #1092 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 293,
+    "leetcode_number": 1235,
+    "title": "Maximum Profit in Job Scheduling",
+    "slug": "maximum-profit-in-job-scheduling",
+    "difficulty": "Hard",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #1235 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Job Sequencing with DP and Binary Search"
+    ],
+    "similar_concept": "Job Sequencing with DP and Binary Search",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 294,
+    "leetcode_number": 1312,
+    "title": "Minimum Insertion Steps to Make a String Palindrome",
+    "slug": "minimum-insertion-steps-to-make-a-string-palindrome",
+    "difficulty": "Hard",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #1312 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Minimum insertions to make string palindrome"
+    ],
+    "similar_concept": "Minimum insertions to make string palindrome",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 295,
+    "leetcode_number": 1463,
+    "title": "Cherry Pickup II",
+    "slug": "cherry-pickup-ii",
+    "difficulty": "Hard",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #1463 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Dynamic Programming Pattern"
+    ],
+    "similar_concept": "Dynamic Programming Pattern",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 296,
+    "leetcode_number": 1671,
+    "title": "Minimum Number of Removals to Make Mountain Array",
+    "slug": "minimum-number-of-removals-to-make-mountain-array",
+    "difficulty": "Hard",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #1671 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Longest Bitonic Subsequence"
+    ],
+    "similar_concept": "Longest Bitonic Subsequence",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 18
+  },
+  {
+    "id": 297,
+    "leetcode_number": 2035,
+    "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+    "slug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+    "difficulty": "Hard",
+    "topics": [
+      "Dynamic Programming",
+      "Algorithms"
+    ],
+    "subtopics": [
+      "Dynamic Programming Core",
+      "Hard Level"
+    ],
+    "source": "docs",
+    "description": "Standard Hard LeetCode #2035 problem focusing on Dynamic Programming.",
+    "similar_problems": [
+      "Partition into two subsets with minimum absolute sum difference"
+    ],
+    "similar_concept": "Partition into two subsets with minimum absolute sum difference",
+    "prerequisites": [
+      "Recursion & Backtracking",
+      "Arrays"
+    ],
+    "estimated_minutes": 55,
+    "note": "",
+    "suggested_day": 18
+  }
+]

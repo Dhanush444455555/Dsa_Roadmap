@@ -1,0 +1,76 @@
+{
+  "topic": "Graphs",
+  "when_to_use": [
+    "Keywords: 'shortest path', 'connected components', 'topological sort', 'bipartite', 'cycle in directed graph', 'minimum spanning tree'.",
+    "Nodes and directed/undirected relations, grid mazes, network routing.",
+    "Kahn's algorithm for dependency resolution; Dijkstra for weighted shortest paths; DSU for connectivity."
+  ],
+  "core_idea": "Represent connectivity via adjacency lists or grids, traversing via BFS (shortest unweighted paths), DFS (cycles/topological sort), Dijkstra (non-negative weights), or Disjoint Set Union.",
+  "code_templates": {
+    "python": "# 1. Topological Sort (Kahn's Algorithm with In-Degrees)\nfrom collections import deque\n\ndef topological_sort(num_nodes: int, edges: list[list[int]]) -> list[int]:\n    adj = {i: [] for i in range(num_nodes)}\n    in_degree = [0] * num_nodes\n    for u, v in edges:\n        adj[u].append(v)\n        in_degree[v] += 1\n\n    queue = deque([i for i in range(num_nodes) if in_degree[i] == 0])\n    order = []\n    while queue:\n        u = queue.popleft()\n        order.append(u)\n        for v in adj[u]:\n            in_degree[v] -= 1\n            if in_degree[v] == 0:\n                queue.append(v)\n    return order if len(order) == num_nodes else [] # Empty if cycle exists\n\n# 2. Dijkstra's Algorithm (Shortest Path)\nimport heapq\ndef dijkstra(num_nodes: int, graph: dict, start: int) -> list[int]:\n    dist = {i: float(\"inf\") for i in range(num_nodes)}\n    dist[start] = 0\n    pq = [(0, start)] # (distance, node)\n\n    while pq:\n        curr_d, u = heapq.heappop(pq)\n        if curr_d > dist[u]:\n            continue\n        for v, weight in graph.get(u, []):\n            if dist[u] + weight < dist[v]:\n                dist[v] = dist[u] + weight\n                heapq.heappush(pq, (dist[v], v))\n    return dist",
+    "cpp": "#include <vector>\n#include <queue>\n\nstd::vector<int> topologicalSort(int n, const std::vector<std::vector<int>>& edges) {\n    std::vector<std::vector<int>> adj(n);\n    std::vector<int> inDegree(n, 0);\n    for (const auto& e : edges) {\n        adj[e[0]].push_back(e[1]);\n        inDegree[e[1]]++;\n    }\n    std::queue<int> q;\n    for (int i = 0; i < n; ++i) {\n        if (inDegree[i] == 0) q.push(i);\n    }\n    std::vector<int> order;\n    while (!q.empty()) {\n        int u = q.front(); q.pop();\n        order.push_back(u);\n        for (int v : adj[u]) {\n            if (--inDegree[v] == 0) q.push(v);\n        }\n    }\n    return (int)order.size() == n ? order : std::vector<int>();\n}",
+    "java": "import java.util.*;\n\npublic class GraphTemplates {\n    public static class UnionFind {\n        int[] parent, rank;\n        int count;\n        public UnionFind(int n) {\n            parent = new int[n];\n            rank = new int[n];\n            count = n;\n            for (int i = 0; i < n; i++) parent[i] = i;\n        }\n        public int find(int i) {\n            if (parent[i] != i) parent[i] = find(parent[i]); // Path compression\n            return parent[i];\n        }\n        public boolean union(int i, int j) {\n            int rootI = find(i), rootJ = find(j);\n            if (rootI == rootJ) return false;\n            if (rank[rootI] < rank[rootJ]) parent[rootI] = rootJ;\n            else if (rank[rootI] > rank[rootJ]) parent[rootJ] = rootI;\n            else { parent[rootJ] = rootI; rank[rootI]++; }\n            count--;\n            return true;\n        }\n    }\n}"
+  },
+  "formulas_and_identities": [
+    "Tree Invariant: Undirected Graph is a valid Tree <=> Edges == n - 1 AND Connected Components == 1",
+    "Disjoint Set Union (DSU) Amortized Complexity: O(alpha(n)) ~ O(1) with Path Compression + Union by Rank",
+    "Handshaking Lemma: sum(degree(v)) = 2 * |E|",
+    "Bipartite Graph Invariant: Graph contains NO odd-length cycles <=> 2-colorable"
+  ],
+  "complexity_table": [
+    {
+      "operation": "BFS / DFS Traversal",
+      "time": "O(V + E)",
+      "space": "O(V)"
+    },
+    {
+      "operation": "Dijkstra's Algorithm (Min-Heap)",
+      "time": "O((V + E) log V)",
+      "space": "O(V)"
+    },
+    {
+      "operation": "Topological Sort (Kahn)",
+      "time": "O(V + E)",
+      "space": "O(V)"
+    },
+    {
+      "operation": "Union-Find Find/Union",
+      "time": "O(alpha(N)) ~ O(1)",
+      "space": "O(N)"
+    }
+  ],
+  "common_mistakes": [
+    "Forgetting to mark nodes as visited in BFS at the moment of queuing, leading to duplicate nodes in queue and TLE.",
+    "Using Dijkstra on graphs with negative edge weights (must use Bellman-Ford).",
+    "Not handling disconnected graph components when checking bipartite status or cycle detection."
+  ],
+  "pattern_to_problem_map": [
+    {
+      "number": 133,
+      "title": "Clone Graph"
+    },
+    {
+      "number": 200,
+      "title": "Number of Islands"
+    },
+    {
+      "number": 207,
+      "title": "Course Schedule"
+    },
+    {
+      "number": 743,
+      "title": "Network Delay Time"
+    },
+    {
+      "number": 785,
+      "title": "Is Graph Bipartite?"
+    }
+  ],
+  "quick_revision": [
+    "BFS on unweighted graph guarantees shortest distance.",
+    "Dijkstra solves shortest paths on non-negative weighted graphs in O((V + E) log V).",
+    "Topological Sort (Kahn's): start with `in_degree == 0`; if sorted list length < N, graph has a cycle.",
+    "Union-Find with Path Compression and Rank performs union/find in nearly O(1) amortized time.",
+    "Tree definition: connected undirected graph with exactly `N - 1` edges."
+  ]
+}

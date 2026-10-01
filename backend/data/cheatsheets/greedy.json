@@ -1,0 +1,71 @@
+{
+  "topic": "Greedy",
+  "when_to_use": [
+    "Keywords: 'minimum jumps', 'maximum units / gas', 'activity selection', 'reorganize string', 'partition labels'.",
+    "Problems exhibiting greedy-choice property and optimal substructure (local optimum leads to global optimum).",
+    "Exchange argument proof: swapping any greedy choice with an alternative never improves the objective."
+  ],
+  "core_idea": "Make the locally optimal choice at each step without reconsidering previous decisions.",
+  "code_templates": {
+    "python": "# 1. Maximum Units on a Truck (Fractional Knapsack style)\ndef maximum_units(box_types: list[list[int]], truck_size: int) -> int:\n    # Sort boxes descending by units per box\n    box_types.sort(key=lambda x: x[1], reverse=True)\n    total_units = 0\n    for count, units in box_types:\n        take = min(truck_size, count)\n        total_units += take * units\n        truck_size -= take\n        if truck_size == 0:\n            break\n    return total_units\n\n# 2. Jump Game (Farthest Reachable Index)\ndef can_jump(nums: list[int]) -> bool:\n    farthest = 0\n    for i, jump in enumerate(nums):\n        if i > farthest:\n            return False # Cannot reach this index\n        farthest = max(farthest, i + jump)\n        if farthest >= len(nums) - 1:\n            return True\n    return True",
+    "cpp": "#include <vector>\n#include <algorithm>\n\nint maximumUnits(std::vector<std::vector<int>>& boxTypes, int truckSize) {\n    std::sort(boxTypes.begin(), boxTypes.end(), [](const auto& a, const auto& b) {\n        return a[1] > b[1];\n    });\n    int totalUnits = 0;\n    for (const auto& box : boxTypes) {\n        int take = std::min(truckSize, box[0]);\n        totalUnits += take * box[1];\n        truckSize -= take;\n        if (truckSize == 0) break;\n    }\n    return totalUnits;\n}",
+    "java": "import java.util.Arrays;\n\npublic class GreedyTemplates {\n    public int maximumUnits(int[][] boxTypes, int truckSize) {\n        Arrays.sort(boxTypes, (a, b) -> Integer.compare(b[1], a[1]));\n        int totalUnits = 0;\n        for (int[] box : boxTypes) {\n            int take = Math.min(truckSize, box[0]);\n            totalUnits += take * box[1];\n            truckSize -= take;\n            if (truckSize == 0) break;\n        }\n        return totalUnits;\n    }\n}"
+  },
+  "formulas_and_identities": [
+    "Exchange Argument: prove that substituting greedy pick for optimal pick leaves total cost <= optimal",
+    "Fractional Knapsack Metric: sort items by (value / weight) descending",
+    "Single-Threaded CPU / Shortest Job First: pick available task with min processing_time",
+    "Gas Station Circuit: if total_gas >= total_cost, valid starting station always exists"
+  ],
+  "complexity_table": [
+    {
+      "operation": "Greedy after Sorting",
+      "time": "O(n log n)",
+      "space": "O(1) / O(n)"
+    },
+    {
+      "operation": "Single Pass Jump Game",
+      "time": "O(n)",
+      "space": "O(1)"
+    },
+    {
+      "operation": "Two-Pass Candy Allocation",
+      "time": "O(n)",
+      "space": "O(n)"
+    }
+  ],
+  "common_mistakes": [
+    "Applying greedy without verifying the optimal substructure (e.g. 0/1 Knapsack requires DP, not Greedy).",
+    "Sorting by start time instead of end time in activity selection.",
+    "Failing to check if total capacity reaches 0 early."
+  ],
+  "pattern_to_problem_map": [
+    {
+      "number": 45,
+      "title": "Jump Game II"
+    },
+    {
+      "number": 55,
+      "title": "Jump Game"
+    },
+    {
+      "number": 134,
+      "title": "Gas Station"
+    },
+    {
+      "number": 1710,
+      "title": "Maximum Units on a Truck"
+    },
+    {
+      "number": 1834,
+      "title": "Single-Threaded CPU"
+    }
+  ],
+  "quick_revision": [
+    "Activity Selection / Interval Scheduling: sort by END time to maximize completed tasks.",
+    "Fractional Knapsack / Max Units on Truck: sort by unit value descending.",
+    "Shortest Job First: among arrived jobs, prioritize the smallest execution duration.",
+    "Jump Game: track `farthest = max(farthest, i + nums[i])`; return false if `i > farthest`.",
+    "Gas Station: reset start index to `i + 1` whenever running tank drops below 0."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "topic": "Arrays & Strings",
+  "when_to_use": [
+    "Contiguous sequences, strings, or 1D/2D grids.",
+    "Keywords: 'in-place', 'rotate', 'subarray', 'prefix', 'permutations', 'spiral'.",
+    "Optimal space requirement O(1) auxiliary memory.",
+    "Prefix sums for constant time range queries sum(l..r)."
+  ],
+  "core_idea": "Leverage index mathematics, prefix accumulations, and in-place transformations (like reversals and matrix rotations) to avoid allocating secondary memory buffers.",
+  "code_templates": {
+    "python": "# 1. Prefix Sum Template\ndef build_prefix_sum(nums: list[int]) -> list[int]:\n    prefix = [0] * (len(nums) + 1)\n    for i, x in enumerate(nums):\n        prefix[i + 1] = prefix[i] + x\n    return prefix\n\n# Query range sum [l, r] (0-indexed)\ndef query_range(prefix: list[int], l: int, r: int) -> int:\n    return prefix[r + 1] - prefix[l]\n\n# 2. Kadane's Algorithm (Max Subarray)\ndef max_subarray(nums: list[int]) -> int:\n    max_so_far = current_max = nums[0]\n    for x in nums[1:]:\n        current_max = max(x, current_max + x)\n        max_so_far = max(max_so_far, current_max)\n    return max_so_far",
+    "cpp": "// 1. Prefix Sum Template\n#include <vector>\n#include <numeric>\n#include <algorithm>\n\nstd::vector<int> buildPrefixSum(const std::vector<int>& nums) {\n    std::vector<int> prefix(nums.size() + 1, 0);\n    for (size_t i = 0; i < nums.size(); ++i) {\n        prefix[i + 1] = prefix[i] + nums[i];\n    }\n    return prefix;\n}\n\n// 2. Kadane's Algorithm\nint maxSubArray(const std::vector<int>& nums) {\n    int maxSoFar = nums[0], currentMax = nums[0];\n    for (size_t i = 1; i < nums.size(); ++i) {\n        currentMax = std::max(nums[i], currentMax + nums[i]);\n        maxSoFar = std::max(maxSoFar, currentMax);\n    }\n    return maxSoFar;\n}",
+    "java": "// 1. Prefix Sum Template\npublic class ArrayTemplates {\n    public static int[] buildPrefixSum(int[] nums) {\n        int[] prefix = new int[nums.length + 1];\n        for (int i = 0; i < nums.length; i++) {\n            prefix[i + 1] = prefix[i] + nums[i];\n        }\n        return prefix;\n    }\n\n    // 2. Kadane's Algorithm\n    public static int maxSubArray(int[] nums) {\n        int maxSoFar = nums[0], currentMax = nums[0];\n        for (int i = 1; i < nums.length; i++) {\n            currentMax = Math.max(nums[i], currentMax + nums[i]);\n            maxSoFar = Math.max(maxSoFar, currentMax);\n        }\n        return maxSoFar;\n    }\n}"
+  },
+  "formulas_and_identities": [
+    "Prefix Sum: sum(l..r) = P[r] - P[l-1] (or P[r+1] - P[l] with 1-indexed padding)",
+    "2D Prefix Sum: S(r1..r2, c1..c2) = P[r2][c2] - P[r1-1][c2] - P[r2][c1-1] + P[r1-1][c1-1]",
+    "Cyclic Array Shift: new_index = (i + k) % n",
+    "Matrix Transpose: swap(matrix[i][j], matrix[j][i]) for j > i",
+    "Boyer-Moore Majority Vote: count == 0 ? (candidate = x, count = 1) : (x == candidate ? count++ : count--)"
+  ],
+  "complexity_table": [
+    {
+      "operation": "Prefix Sum Construction",
+      "time": "O(n)",
+      "space": "O(n)"
+    },
+    {
+      "operation": "Range Query with Prefix Sum",
+      "time": "O(1)",
+      "space": "O(1)"
+    },
+    {
+      "operation": "Kadane's Algorithm",
+      "time": "O(n)",
+      "space": "O(1)"
+    },
+    {
+      "operation": "In-place Array Rotation",
+      "time": "O(n)",
+      "space": "O(1)"
+    }
+  ],
+  "common_mistakes": [
+    "Off-by-one errors when setting up 1-indexed prefix sum arrays.",
+    "Integer overflow when calculating sums of large integer arrays (use 64-bit int / long).",
+    "Modifying matrix dimensions in-place without checking row vs column bounds.",
+    "Forgetting to handle empty arrays or arrays of length 1."
+  ],
+  "pattern_to_problem_map": [
+    {
+      "number": 1,
+      "title": "Two Sum"
+    },
+    {
+      "number": 53,
+      "title": "Maximum Subarray"
+    },
+    {
+      "number": 48,
+      "title": "Rotate Image"
+    },
+    {
+      "number": 54,
+      "title": "Spiral Matrix"
+    },
+    {
+      "number": 169,
+      "title": "Majority Element"
+    },
+    {
+      "number": 238,
+      "title": "Product of Array Except Self"
+    },
+    {
+      "number": 560,
+      "title": "Subarray Sum Equals K"
+    }
+  ],
+  "quick_revision": [
+    "Use Prefix Sum for O(1) subarray sum queries.",
+    "Use Kadane's algorithm to find maximum contiguous subarray sum in O(n) time and O(1) space.",
+    "Rotate an array by k steps via 3 reversals: reverse all, reverse first k, reverse remaining.",
+    "Rotate a matrix 90 degrees clockwise by transposing then reversing each row.",
+    "Boyer-Moore voting algorithm finds the majority element (> n/2) in O(n) time and O(1) space."
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "topic": "Two Pointers",
+  "when_to_use": [
+    "Keywords: 'sorted array', 'pair with target sum', 'palindrome', 'in-place partition', 'container with water'.",
+    "When searching pairs or triplets in sorted sequences in O(n) without hash map overhead.",
+    "Partitioning arrays in O(n) time and O(1) space (e.g. Dutch National Flag)."
+  ],
+  "core_idea": "Position pointers at key boundaries (e.g., opposite ends or fast/slow speeds) and move them inward or forward monotonically based on comparison invariants.",
+  "code_templates": {
+    "python": "# 1. Opposite Ends Two Pointers (e.g., 2Sum on Sorted Array)\ndef two_sum_sorted(numbers: list[int], target: int) -> list[int]:\n    left, right = 0, len(numbers) - 1\n    while left < right:\n        curr_sum = numbers[left] + numbers[right]\n        if curr_sum == target:\n            return [left + 1, right + 1] # 1-indexed\n        elif curr_sum < target:\n            left += 1\n        else:\n            right -= 1\n    return []\n\n# 2. Dutch National Flag (3-way partition in-place)\ndef sort_colors(nums: list[int]) -> None:\n    low, mid, high = 0, 0, len(nums) - 1\n    while mid <= high:\n        if nums[mid] == 0:\n            nums[low], nums[mid] = nums[mid], nums[low]\n            low += 1\n            mid += 1\n        elif nums[mid] == 1:\n            mid += 1\n        else:\n            nums[mid], nums[high] = nums[high], nums[mid]\n            high -= 1",
+    "cpp": "#include <vector>\n\nvoid sortColors(std::vector<int>& nums) {\n    int low = 0, mid = 0, high = nums.size() - 1;\n    while (mid <= high) {\n        if (nums[mid] == 0) {\n            std::swap(nums[low++], nums[mid++]);\n        } else if (nums[mid] == 1) {\n            mid++;\n        } else {\n            std::swap(nums[mid], nums[high--]);\n        }\n    }\n}",
+    "java": "public class TwoPointerTemplates {\n    public void sortColors(int[] nums) {\n        int low = 0, mid = 0, high = nums.length - 1;\n        while (mid <= high) {\n            if (nums[mid] == 0) {\n                int temp = nums[low];\n                nums[low++] = nums[mid];\n                nums[mid++] = temp;\n            } else if (nums[mid] == 1) {\n                mid++;\n            } else {\n                int temp = nums[mid];\n                nums[mid] = nums[high];\n                nums[high--] = temp;\n            }\n        }\n    }\n}"
+  },
+  "formulas_and_identities": [
+    "Container with Most Water Area: area = (right - left) * min(height[left], height[right])",
+    "Floyd's Cycle Detection Phase 1: fast moves 2 steps, slow moves 1 step until fast == slow",
+    "Floyd's Cycle Detection Phase 2: reset slow to head, advance both by 1 step until they meet at loop entry",
+    "3-Way Partition Invariant: [0..low-1] is 0, [low..mid-1] is 1, [high+1..n-1] is 2"
+  ],
+  "complexity_table": [
+    {
+      "operation": "Opposite Ends Convergence",
+      "time": "O(n)",
+      "space": "O(1)"
+    },
+    {
+      "operation": "3Sum (Sort + Two Pointers)",
+      "time": "O(n^2)",
+      "space": "O(1) / O(log n)"
+    },
+    {
+      "operation": "Trapping Rain Water (Two Pointers)",
+      "time": "O(n)",
+      "space": "O(1)"
+    }
+  ],
+  "common_mistakes": [
+    "Forgetting to skip duplicate elements in 3Sum/4Sum, leading to non-unique answer sets.",
+    "Advancing `mid` pointer after swapping with `high` in Dutch National Flag (the swapped value from high hasn't been checked yet).",
+    "Loop condition `left < right` vs `left <= right` confusion."
+  ],
+  "pattern_to_problem_map": [
+    {
+      "number": 11,
+      "title": "Container With Most Water"
+    },
+    {
+      "number": 15,
+      "title": "3Sum"
+    },
+    {
+      "number": 42,
+      "title": "Trapping Rain Water"
+    },
+    {
+      "number": 75,
+      "title": "Sort Colors"
+    },
+    {
+      "number": 167,
+      "title": "Two Sum II - Input Array Is Sorted"
+    }
+  ],
+  "quick_revision": [
+    "Sort the array first if two-sum / three-sum problem is not already sorted.",
+    "Always skip duplicates after finding a valid match in kSum problems.",
+    "In Dutch National Flag: don't increment mid after swapping with high.",
+    "Trapping Rain Water can be solved in O(1) space with two pointers tracking leftMax and rightMax.",
+    "Floyd's cycle detection locates loop start when reset pointer meets slow pointer at step speed 1."
+  ]
+}
