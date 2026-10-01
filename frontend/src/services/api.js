@@ -116,6 +116,16 @@ export const dsaApi = {
     const query = encodeURIComponent(`${leetcodeNumber ? leetcodeNumber + ' ' : ''}${title}`);
     return `https://leetcode.com/problemset/all/?search=${query}`;
   },
+
+  // AI Chat with DSA tutor (Google Gemini)
+  aiChat: async (message, history = [], problemContext = null) => {
+    const response = await apiClient.post('/ai-chat', {
+      message,
+      history,
+      problem_context: problemContext,
+    });
+    return response.data;
+  },
 };
 
 export default apiClient;

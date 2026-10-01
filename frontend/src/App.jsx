@@ -10,6 +10,7 @@ import { TodayProblems } from './pages/TodayProblems';
 import { ProgressDashboard } from './pages/ProgressDashboard';
 import { RevisionPage } from './pages/RevisionPage';
 import { SettingsPage } from './pages/SettingsPage';
+import { AIChatWidget } from './components/AIChatWidget';
 
 export const App = () => {
   return (
@@ -40,6 +41,9 @@ export const App = () => {
             <span>Deterministic Graph Ordering + Concept Interleaving</span>
           </div>
         </footer>
+
+        {/* Global AI Chat Widget — visible on all pages */}
+        <AIChatWidget />
       </div>
     </BrowserRouter>
   );
